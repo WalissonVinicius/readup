@@ -3,13 +3,13 @@ import { notFound } from 'next/navigation'
 
 // Função para extrair o conteúdo do capítulo do arquivo original
 const extractChapterContent = (content: string, chapterNumber: number): string => {
-    // Esta função processaria o conteúdo do arquivo Notes_250411_000103.txt
-    // e extrairia apenas o conteúdo do capítulo específico
-    // Para fins de demonstração, estamos usando conteúdo fixo
+        // Esta função processaria o conteúdo do arquivo Notes_250411_000103.txt
+        // e extrairia apenas o conteúdo do capítulo específico
+        // Para fins de demonstração, estamos usando conteúdo fixo
 
-    const chapters = [
-        // Capítulo 1
-        `Capítulo 1 — "Começos"
+        const chapters = [
+                // Capítulo 1
+                `Capítulo 1 — "Começos"
 
 O som dos passos apressados ecoava pelos corredores da universidade enquanto os alunos se movimentavam em busca das salas corretas. Era o primeiro dia de aula do semestre, e o campus ganhava vida com risos, conversas e um leve nervosismo no ar.
 
@@ -61,53 +61,53 @@ Mas nenhum dos dois notou. Ainda não.
 
 Fim do capítulo.`,
 
-        // Capítulo 2
-        `Capítulo 2 — "Caminhos que se Cruzam"
+                // Capítulo 2
+                `Capítulo 2 — "Caminhos que se Cruzam"
 
 O campus da universidade ainda carregava aquele ar de novidade, com estudantes cruzando os corredores em busca de salas, cartazes de clubes estampados por todos os lados e uma brisa morna de início de outono balançando as folhas das árvores.
 
 Nicole caminhava com o mapa do campus aberto no celular, franzindo a testa.
-— “Sala 206 do bloco D… ou era do bloco C…?” — murmurava baixinho, virando o aparelho de cabeça pra baixo, como se isso fosse ajudar.
+— "Sala 206 do bloco D… ou era do bloco C…?" — murmurava baixinho, virando o aparelho de cabeça pra baixo, como se isso fosse ajudar.
 
 Nick, que passava com fone de ouvido e um copo de café na mão, a notou de longe. Ele reconheceu o rosto — afinal, tinham se esbarrado no primeiro dia, e a expressão de confusão era inconfundível.
 
-— “Se continuar andando nessa direção, você vai parar no estacionamento.” — ele disse, parando ao lado dela com um meio sorriso.
+— "Se continuar andando nessa direção, você vai parar no estacionamento." — ele disse, parando ao lado dela com um meio sorriso.
 
 Nicole piscou algumas vezes e deu um risinho nervoso.
-— “Ah… eu sabia. Tava testando você…” — ela respondeu, desviando o olhar enquanto desligava o mapa.
+— "Ah… eu sabia. Tava testando você…" — ela respondeu, desviando o olhar enquanto desligava o mapa.
 
 Nick deu uma risadinha, colocando o café no parapeito de uma mureta próxima.
-— “Bloco D é pra lá. Eu te levo, tô indo naquela direção.”
+— "Bloco D é pra lá. Eu te levo, tô indo naquela direção."
 
 Nicole hesitou por um segundo antes de assentir com um sorriso tímido.
-— “Valeu, veterano.”
+— "Valeu, veterano."
 
 Os dois começaram a andar lado a lado. Era um silêncio confortável, com o som dos passos e o vento preenchendo o espaço entre eles. Nicole olhava ao redor com curiosidade, enquanto Nick, que já conhecia cada canto dali, a observava com o canto dos olhos.
 
-— “Tá curtindo a faculdade até agora?” — ele perguntou, quebrando o silêncio.
+— "Tá curtindo a faculdade até agora?" — ele perguntou, quebrando o silêncio.
 
-— “Sim… quer dizer, meio perdida ainda. Mas o pessoal parece legal. E você?”
+— "Sim… quer dizer, meio perdida ainda. Mas o pessoal parece legal. E você?"
 
-— “Já me acostumei. Mas sempre tem algo novo por aqui. Tipo calouras que tentam andar até o estacionamento achando que é o bloco D.” — ele falou com um sorriso provocativo.
+— "Já me acostumei. Mas sempre tem algo novo por aqui. Tipo calouras que tentam andar até o estacionamento achando que é o bloco D." — ele falou com um sorriso provocativo.
 
 Nicole riu e empurrou levemente o ombro dele.
-— “Hey! Eu tava só… explorando!”
+— "Hey! Eu tava só… explorando!"
 
 Nick sorriu de volta, e por um breve momento, os dois se olharam e pareceram esquecer o tempo. Não era nada grandioso, nada cinematográfico — apenas um instante onde os olhos se encontraram, e havia um tipo de paz ali. Natural. Leve.
 
 Chegando perto da sala, Nick apontou com o queixo.
-— “É aqui. Sala 206.”
+— "É aqui. Sala 206."
 
-— “Obrigada… de novo.” — ela respondeu.
+— "Obrigada… de novo." — ela respondeu.
 
 Nick pegou o café de volta e fez um gesto leve com a cabeça.
-— “Se se perder de novo, só me procurar. Tô sempre por aí.”
+— "Se se perder de novo, só me procurar. Tô sempre por aí."
 
-— “Vou anotar isso.” — ela respondeu, sorrindo.
+— "Vou anotar isso." — ela respondeu, sorrindo.
 
 Nicole entrou na sala, e Nick ficou parado por um segundo. O sorriso dela, mesmo tímido, ficou na cabeça dele por mais tempo do que imaginava. Ele deu um gole no café e murmurou pra si mesmo:
 
-— “Ela tem uma risada bonita…”
+— "Ela tem uma risada bonita…"
 
 E então seguiu o caminho dele, sem perceber que, aos poucos, aquela garota de mapa na mão já tinha marcado alguma coisa dentro dele.
 
@@ -115,8 +115,8 @@ E então seguiu o caminho dele, sem perceber que, aos poucos, aquela garota de m
 
 Fim do capítulo.`,
 
-        // Capítulo 3
-        `Capítulo 3 — "Uma pausa entre aulas"
+                // Capítulo 3
+                `Capítulo 3 — "Uma pausa entre aulas"
 
 Os corredores da universidade se enchiam de vozes e passos apressados. Era hora do intervalo entre os turnos, e os alunos se espalhavam pelo campus — uns correndo para os clubes, outros em busca de um lanche ou um lugar mais tranquilo para respirar.
 
@@ -124,44 +124,44 @@ Nicole, com a mochila pendurada de lado e os fones enroscados nos dedos, caminha
 
 Ela procurava um lugar pra sentar quando ouviu uma voz familiar:
 
-— “Ei, caloura perdida de novo?” — disse Nick, encostado numa árvore, com uma caixa de suco na mão e uma mochila jogada no chão ao lado dele.
+— "Ei, caloura perdida de novo?" — disse Nick, encostado numa árvore, com uma caixa de suco na mão e uma mochila jogada no chão ao lado dele.
 
 Nicole ergueu a sobrancelha com um sorriso enviesado.
-— “Você só me vê perdida ou anda me perseguindo, veterano?”
+— "Você só me vê perdida ou anda me perseguindo, veterano?"
 
 Nick riu e deu de ombros.
-— “Talvez um pouco dos dois. Quer sentar?”
+— "Talvez um pouco dos dois. Quer sentar?"
 
 Ela olhou ao redor. Todos os bancos estavam ocupados por grupos barulhentos, mas o lugar onde Nick estava parecia... tranquilo. Ela assentiu, sentando ao lado dele, com uma certa timidez que tentava disfarçar brincando com os fones nas mãos.
 
-— “Então, qual é o seu curso mesmo?” — ele perguntou, virando ligeiramente o rosto pra ela.
+— "Então, qual é o seu curso mesmo?" — ele perguntou, virando ligeiramente o rosto pra ela.
 
-— “Design. Quero trabalhar com arte digital… ou animação. Tô na dúvida ainda.” — respondeu Nicole, agora olhando o céu entre as folhas das árvores.
+— "Design. Quero trabalhar com arte digital… ou animação. Tô na dúvida ainda." — respondeu Nicole, agora olhando o céu entre as folhas das árvores.
 
 Nick abriu um sorriso discreto.
-— “Faz sentido. Você tem cara de quem vive rabiscando alguma coisa no canto do caderno.”
+— "Faz sentido. Você tem cara de quem vive rabiscando alguma coisa no canto do caderno."
 
 Nicole sorriu de canto.
-— “E você? Já tá no fim do curso?”
+— "E você? Já tá no fim do curso?
 
-— “Quase. Último ano de comunicação. Mas já tô cansado como se tivesse uns cinquenta anos.” — ele disse, fingindo um suspiro dramático.
+— "Quase. Último ano de comunicação. Mas já tô cansado como se tivesse uns cinquenta anos." — ele disse, fingindo um suspiro dramático.
 
 Nicole riu.
-— “Não parece, viu? Ainda tá no pique de provocar calouras.”
+— "Não parece, viu? Ainda tá no pique de provocar calouras."
 
 Nick a olhou de lado, e por um momento, ela percebeu que ele não era só o cara que tirava sarro dela. Havia um cansaço discreto nos olhos dele, mas também algo gentil, um tipo de calma que era reconfortante.
 
-— “É legal conversar com você, sabia?” — ela soltou, quase sem perceber.
+— "É legal conversar com você, sabia?" — ela soltou, quase sem perceber.
 
 Nick se virou um pouco surpreso.
-— “É? Por quê?”
+— "É? Por quê?"
 
 Nicole deu de ombros, sorrindo.
-— “Você me trata como se eu já fizesse parte daqui. E isso ajuda. Tipo… muito.”
+— "Você me trata como se eu já fizesse parte daqui. E isso ajuda. Tipo… muito."
 
 Ele ficou em silêncio por um segundo, olhando pra ela, e então desviou os olhos com um sorriso pequeno, mas sincero.
 
-— “Talvez você já faça.”
+— "Talvez você já faça."
 
 A frase pairou no ar. Ambos fingiram não dar muita importância a ela, voltando os olhos para o céu e para os sons ao redor, como se não significasse nada… embora, no fundo, tivesse deixado algo marcado. Não era amor, ainda. Mas era o início de um laço que, dia após dia, ficaria mais forte — sem que eles percebessem.
 
@@ -169,53 +169,53 @@ A frase pairou no ar. Ambos fingiram não dar muita importância a ela, voltando
 
 Fim do capítulo.`,
 
-        // Capítulo 4
-        `Capítulo 4 — "Chuva inesperada"
+                // Capítulo 4
+                `Capítulo 4 — "Chuva inesperada"
 
 O céu já estava meio fechado desde o começo da tarde, mas ninguém parecia dar bola. A maioria dos alunos ainda circulava pelo campus, e Nicole, como de costume, saía da aula distraída, os fones no pescoço e o olhar voltado pro celular, respondendo mensagens do grupo da turma. Ela não percebeu as nuvens se juntando acima dela até ouvir o primeiro trovão.
 
-— “Sério isso?” — murmurou, olhando pra cima, justo quando as primeiras gotas começaram a cair.
+— "Sério isso?" — murmurou, olhando pra cima, justo quando as primeiras gotas começaram a cair.
 
 Apressou o passo, protegendo o cabelo com a manga do moletom. A chuva engrossou rápido, pegando todos desprevenidos. O jardim se esvaziava enquanto os estudantes corriam para os pavilhões mais próximos.
 
 Nicole correu até a cobertura do prédio de comunicação, onde encontrou alguns alunos se abrigando. E lá, encostado na parede, com a mochila no chão e uma latinha de café na mão, estava Nick. Ele olhou pra ela, com aquele sorriso de canto costumeiro.
 
-— “Acho que a chuva tem uma queda por você, caloura.”
+— "Acho que a chuva tem uma queda por você, caloura."
 
 Nicole bufou, ofegante pela correria.
-— “Se ela gosta de mim, tem um jeito bem ruim de demonstrar.”
+— "Se ela gosta de mim, tem um jeito bem ruim de demonstrar."
 
 Nick riu, afastando-se um pouco da parede para dar espaço.
-— “Vem pra cá, ainda dá pra fugir de ficar encharcada.”
+— "Vem pra cá, ainda dá pra fugir de ficar encharcada."
 
 Ela entrou debaixo da cobertura e ajeitou os cabelos.
-— “Você sempre aparece nesses momentos, né?”
+— "Você sempre aparece nesses momentos, né?"
 
-— “Talvez eu só esteja no lugar certo na hora certa. Ou talvez eu só goste de ver você correndo da chuva.”
+— "Talvez eu só esteja no lugar certo na hora certa. Ou talvez eu só goste de ver você correndo da chuva."
 
 Nicole deu uma risada leve e sentou no chão encostada à parede, deixando a mochila do lado. Nick se sentou também, cruzando as pernas.
 
 Os dois ficaram em silêncio por um instante, apenas ouvindo o barulho da chuva batendo no telhado de metal e o som distante de alunos correndo ou rindo. A cena era tranquila, quase cinematográfica.
 
-— “Tem algo de bom nisso,” disse Nicole, olhando a água escorrer.
-— “No quê?”
-— “Na chuva. Tipo… ela obriga a gente a parar, sabe? A não correr tanto.”
+— "Tem algo de bom nisso," disse Nicole, olhando a água escorrer.
+— "No quê?"
+— "Na chuva. Tipo… ela obriga a gente a parar, sabe? A não correr tanto."
 
 Nick olhou pra ela com um ar surpreso.
-— “Você sempre fala essas coisas meio poéticas assim?”
+— "Você sempre fala essas coisas meio poéticas assim?"
 
-— “Só quando eu tô com alguém que escuta.” — respondeu ela, com um sorriso tímido.
+— "Só quando eu tô com alguém que escuta." — respondeu ela, com um sorriso tímido.
 
 Ele ficou em silêncio por alguns segundos, encarando a chuva como se digerisse aquelas palavras.
-— “Então vou continuar escutando.”
+— "Então vou continuar escutando."
 
 Nicole sentiu algo estranho com aquela resposta. Um leve aquecimento no peito. Mas ignorou. Era só uma conversa, certo?
 
 Depois de um tempo ali, rindo de bobagens, falando sobre matérias, professores esquisitos e comidas ruins da cantina, a chuva começou a parar. Eles se levantaram devagar, como se não tivessem pressa de ir embora.
 
-— “Acho que agora dá pra voltar,” disse Nicole, ajeitando a alça da mochila.
+— "Acho que agora dá pra voltar," disse Nicole, ajeitando a alça da mochila.
 
-— “Te acompanho,” respondeu Nick, andando ao lado dela pelo caminho molhado, os dois desviando de poças, conversando baixinho.
+— "Te acompanho," respondeu Nick, andando ao lado dela pelo caminho molhado, os dois desviando de poças, conversando baixinho.
 
 Nem um nem outro percebeu o quanto estavam sorrindo ao final do trajeto. Também não notaram como haviam parado de tratar aquilo como apenas mais uma coincidência.
 
@@ -225,8 +225,8 @@ Afinal, talvez a chuva realmente tivesse uma queda por eles.
 
 Fim do capítulo.`,
 
-        // Capítulo 5
-        `Capítulo 5 — "Entre conversas e silêncios"
+                // Capítulo 5
+                `Capítulo 5 — "Entre conversas e silêncios"
 
 A semana seguinte à chuva parecia mais leve. O campus ainda estava molhado em alguns pontos, mas o clima estava mais ameno, e as árvores tinham aquele cheiro gostoso de terra molhada misturado com flores de outono. Era como se tudo tivesse desacelerado um pouco — inclusive Nicole.
 
@@ -236,39 +236,39 @@ Do outro lado, Nick estava igual. Mesmo com a rotina corrida dos veteranos, ele 
 
 Na quinta-feira, após uma aula longa de semiótica, Nicole saiu da sala coçando a cabeça.
 
-— “Não sei se meu cérebro entendeu ou só desistiu de tentar.”
+— "Não sei se meu cérebro entendeu ou só desistiu de tentar."
 
 Foi quando sentiu alguém cutucar seu ombro.
-— “Você sobreviveu. Isso já conta como vitória.” — Nick sorriu, apoiado na parede.
+— "Você sobreviveu. Isso já conta como vitória." — Nick sorriu, apoiado na parede.
 
-— “Você me persegue ou tem um radar específico pra quando eu tô surtando?”
+— "Você me persegue ou tem um radar específico pra quando eu tô surtando?"
 
-— “Os dois. Mas se te consola, eu também saí de uma aula que parecia ter sido dada em aramaico.”
+— "Os dois. Mas se te consola, eu também saí de uma aula que parecia ter sido dada em aramaico."
 
 Nicole riu e, sem dizer nada, começou a caminhar com ele ao lado. Os passos eram calmos, como se ambos soubessem que não precisavam ir pra lugar nenhum com pressa.
 
-— “Ei, tô indo pegar café. Quer vir?”
-— “Se for do bom, sim. Se for daquele da máquina, não.”
-— “Então é sim. Tô com sorte hoje.”
+— "Ei, tô indo pegar café. Quer vir?"
+— "Se for do bom, sim. Se for daquele da máquina, não."
+— "Então é sim. Tô com sorte hoje."
 
 Eles seguiram até a cafeteria do campus, pegaram os cafés e se sentaram num banco de concreto no pátio, onde a luz do fim da tarde dourava tudo ao redor. Era um daqueles momentos que pareciam pequenos demais pra serem importantes — mas eram.
 
 Nick abriu o caderno dele e mostrou algumas ideias de um projeto. Nicole se interessou logo.
-— “Você realmente desenha tudo isso?”
-— “Desde sempre. Mas nunca mostro pra muita gente.”
+— "Você realmente desenha tudo isso?"
+— "Desde sempre. Mas nunca mostro pra muita gente."
 
-— “Por quê?”
-— “Acho que é meio íntimo. Tipo mostrar uma parte que eu não sei se as pessoas vão entender.”
+— "Por quê?"
+— "Acho que é meio íntimo. Tipo mostrar uma parte que eu não sei se as pessoas vão entender."
 
 Ela ficou em silêncio por um instante, depois olhou pra ele.
-— “Eu entendo.”
+— "Eu entendo."
 
 A resposta foi simples, mas carregada de significado. Nick olhou pra ela de volta, e por um breve momento, houve silêncio entre os dois. Mas não era um silêncio desconfortável. Era cheio. Quase denso.
 
 Ele desviou o olhar com um sorrisinho.
-— “Você é meio diferente, Nicole.”
+— "Você é meio diferente, Nicole."
 
-— “Você também, Nick.”
+— "Você também, Nick."
 
 Eles continuaram ali por mais um tempo, falando sobre nada e tudo. Rindo de piadas internas que começaram a surgir, dividindo o fone de ouvido pra ouvir uma música nova que Nicole tinha descoberto. O sol descia devagar no céu, deixando os dois envoltos numa luz dourada.
 
@@ -284,8 +284,8 @@ E nenhum dos dois percebia — ainda.
 
 Fim do capítulo.`,
 
-        // Capítulo 6
-        `Capítulo 6 — "Ecos na Silhueta da Tarde"
+                // Capítulo 6
+                `Capítulo 6 — "As Pequenas Coisas"
 
 O calor do início do outono começava a dar lugar a brisas mais suaves. O campus estava mais silencioso naquele sábado de manhã, com poucos alunos andando pelos corredores. Nicole havia chegado cedo para trabalhar em um projeto solo, mas, ao passar pela sala de multimídia, viu algo familiar.
 
@@ -337,8 +337,61 @@ Sem eles perceberem... estavam ficando cada vez mais próximos.
 
 Fim do capítulo.`,
 
-        // Capítulo 7
-        `Capítulo 7 — "Entre Corações Atrapalhados"
+                // Capítulo 7
+                `Capítulo 7 — "Ecos na Silhueta da Tarde"
+
+O calor do início do outono começava a dar lugar a brisas mais suaves. O campus estava mais silencioso naquele sábado de manhã, com poucos alunos andando pelos corredores. Nicole havia chegado cedo para trabalhar em um projeto solo, mas, ao passar pela sala de multimídia, viu algo familiar.
+
+Nick estava ali, de fones, editando algo no computador. A luz do monitor refletia nos olhos dele, e havia um copo vazio de café ao lado do teclado.
+
+Ela ficou parada na porta, observando por alguns segundos antes de bater de leve na madeira.
+
+— Trabalhando de novo? — perguntou com um sorriso.
+
+Nick tirou um dos fones e olhou pra ela.
+— Você também tá aqui num sábado? Achei que só eu era doente o suficiente pra isso.
+
+Nicole entrou, sentando na cadeira ao lado.
+— Meu cérebro funciona melhor longe da gritaria do pessoal. Aqui é tipo... um santuário.
+
+Nick esticou o braço, entregando um fone pra ela.
+— Quer ouvir? É a trilha que tô pensando em usar pra um vídeo do projeto.
+
+Ela colocou o fone, e os dois ficaram ali, compartilhando o mesmo áudio. A música era suave, meio melancólica, mas reconfortante.
+
+— Isso combina com teu projeto... e contigo — comentou Nicole, olhando pro monitor.
+
+— Comigo? — ele riu, curioso.
+
+— É. Meio introspectivo, mas cheio de detalhes. Só percebe quem olha com calma.
+
+Nick não soube o que responder. Mas aquela frase ficou ecoando nele.
+
+Algum tempo depois, já com o sol mais alto, Nicole se espreguiçou.
+
+— Ei, tô com fome. Vamos comer algo?
+
+— Bora. Conheço um lugar ali perto que é barato e tem um karaokê.
+
+Ela arqueou uma sobrancelha.
+— Karaokê?
+
+— O que foi? Você não canta?
+
+— Só no banho... e mesmo assim mal.
+
+— Então vai ser perfeito. Eu canto pior ainda — disse ele, levantando e estendendo a mão.
+
+Nicole segurou, e os dois saíram juntos, o som dos passos ecoando pelo corredor vazio. Era só um almoço. Só um karaokê. Mas havia algo diferente naquela naturalidade. Algo que crescia devagar, feito flor em dia nublado.
+
+Sem eles perceberem... estavam ficando cada vez mais próximos.
+
+---
+
+Fim do capítulo.`,
+
+                // Capítulo 8
+                `Capítulo 8 — "Entre Corações Atrapalhados"
 
 O campus parecia diferente naquela tarde. O sol, mais baixo, tingia tudo de dourado — os corredores, os degraus da entrada, até mesmo o reflexo nas janelas da biblioteca parecia brilhar com um toque mais suave.
 
@@ -389,8 +442,8 @@ E mais uma vez, o capítulo se encerrava sem que eles percebessem: já estavam m
 
 Fim do capítulo.`,
 
-        // Capítulo 8
-        `Capítulo 8 — "O Peso das Palavras"
+                // Capítulo 9
+                `Capítulo 9 — "Calda de maçã e silêncios"
 
 A cafeteria da universidade estava quase vazia. Era fim de tarde de uma sexta-feira, o sol entrava de lado pelas janelas amplas, criando linhas douradas no chão de madeira. Nick estava na fila, meio distraído, enquanto Nicole escolhia uma mesa perto da janela.
 
@@ -417,7 +470,7 @@ Nick riu baixinho, mas não tirou os olhos dela.
 
 Nicole deu um sorrisinho torto, balançando a cabeça. O silêncio que se seguiu foi... estranho. Não desconfortável, só... cheio. Cheio de algo que nenhum dos dois conseguia nomear. Um quase toque, um quase beijo... um quase tudo.
 
-E foi exatamente nesse “quase” que a garçonete chegou com um pedaço de torta de maçã — só que errou a mesa e colocou em cima do caderno de Nicole, sujando tudo de calda.
+E foi exatamente nesse "quase" que a garçonete chegou com um pedaço de torta de maçã — só que errou a mesa e colocou em cima do caderno de Nicole, sujando tudo de calda.
 
 — Aí não, moça... esse era meu novo projeto! — Nicole se levantou num pulo, pegando o caderno com uma expressão de desespero cômico.
 
@@ -438,8 +491,8 @@ E nenhum dos dois percebeu... mas estavam cada vez mais presos naquele laço inv
 
 Fim do capítulo.`,
 
-        // Capítulo 9
-        `Capítulo 9 — "Entre Silêncios e Confissões"
+                // Capítulo 10
+                `Capítulo 10 — "Entre Palavras Não Ditas"
 
 O sol já tinha começado a descer quando os dois saíram da cafeteria. Nicole ainda limpava com cuidado o caderno manchado de calda, segurando-o contra o peito como se aquilo fosse salvar o projeto.
 
@@ -466,7 +519,7 @@ Nicole olhou para o céu dourado e, sem pensar muito, soltou:
 Nick a olhou de lado, surpreso.
 — Sério?
 
-— Uhum. Você tem essa cara de “eu sei de tudo”.
+— Uhum. Você tem essa cara de "eu sei de tudo".
 
 — Mas eu sei de tudo. — ele respondeu, sério, e os dois começaram a rir de novo.
 
@@ -511,79 +564,13 @@ Mas naquele momento, ele percebeu que não queria que ela mudasse nem um pouco.
 
 Fim do capítulo.`,
 
-        // Capítulo 10
-        `Capítulo 10 — "Desvio de Rota"
-
-Era um sábado cinzento, com céu nublado e cheiro de chuva no ar. Nicole estava sentada em um banco de praça, perto de uma feirinha de artesanato no centro da cidade, segurando um copo de chá gelado e encarando uma barraca que vendia colares feitos à mão.
-
-Ela estava ali meio por acaso. Tinha vindo comprar materiais de arte e acabou desviando do caminho quando viu os panfletos coloridos. A ideia era só dar uma volta, mas foi ficando... e agora, por algum motivo, tinha mandado uma mensagem para Nick:
-
-> "Tem uma feira de arte aqui no centro. Tá entediado? Podia vir."
-
-Não demorou cinco minutos para ele responder:
-
-> "Tô a caminho."
-
-Nicole olhou para o celular e depois pro céu.
-— Esse menino tem radar de convite ou tá só esperando qualquer desculpa pra sair comigo...? — ela murmurou, rindo sozinha.
-
-Nick apareceu pouco depois, com o cabelo um pouco bagunçado, uma jaqueta jogada por cima da camiseta preta e um sorrisinho sem vergonha no rosto.
-
-— Sabia que sábado de manhã é quando eu sou mais bonito? — ele soltou assim que chegou, estendendo a mão pro copo dela.
-— Isso é chá de hibisco?
-
-— É meu. Vai comprar o seu. — ela respondeu, mas estendeu o copo mesmo assim.
-
-Foram andando entre as barracas, comentando os quadros, rindo dos artesanatos mais bizarros e até brigando de brincadeira por um chaveiro em forma de lhaminha com óculos escuros.
-
-— Esse é muito você, Nick. Arrogante e com estilo duvidoso. — Nicole disse.
-
-— E o seu seria o quê? Essa florzinha meio deprimida?
-
-— É uma flor de cerejeira, ignorante!
-
-A conversa fluía leve, natural. Mas em um momento, enquanto observavam um senhor esculpindo madeira com cuidado, um silêncio caiu entre eles. Nicole olhava fixamente para o movimento das mãos do escultor, e Nick... bom, ele olhava fixamente para Nicole.
-
-Ele não sabia por quê, mas algo ali fez o tempo parecer mais lento. O jeito que ela estava com o cabelo meio bagunçado pelo vento, os olhos focados... ela nem estava rindo ou falando — só existindo — e, mesmo assim, ele se sentiu meio bobo.
-
-— Você tem um cisco no cabelo, — ele falou baixo, estendendo a mão e tirando um pedacinho de folha grudado.
-
-Ela olhou pra ele, os olhos se encontrando mais perto do que costumavam.
-
-Por um instante, tudo pareceu meio congelado. Como se um filme romântico estivesse prestes a começar.
-
-Mas antes que qualquer música imaginária pudesse tocar, um pombo passou voando baixo demais e quase acertou a cabeça de Nick, fazendo ele abaixar no susto.
-
-— AÍ MEU DEUS! — ele gritou, se abaixando.
-Nicole explodiu em gargalhadas. Gargalhadas tão sinceras que quase derrubou o chá.
-
-— Você acabou de perder todos os pontos de charme que tinha acumulado!
-
-— Era um pombo kamikaze! Você viu aquilo!?
-
-— Vi! Vi você se jogando no chão como um NPC em pânico!
-
-Eles seguiram andando, entre risadas, com as bochechas vermelhas — mas dessa vez, não só pelo friozinho do vento.
-
-Nicole pensou, sem dizer:
-"Acho que gosto de passar tempo com ele."
-
-Nick pensou, sem admitir:
-"Acho que prefiro os sábados com ela."
-
-Mas nenhum dos dois disse nada. Ainda.
-
----
-
-Fim do capítulo.`,
-
-        // Capítulo 11
-        `Capítulo 11 — "Notificação às 22:47"
+                // Capítulo 11
+                `Capítulo 11 — "Notificação às 22:47"
 
 O som das teclas ecoava no quarto silencioso. A luz azulada do monitor iluminava o rosto de Nick, que estava editando algo para um projeto da faculdade. A escrivaninha estava bagunçada: caneca com resquício de café frio, cadernos rabiscados, um fone largado sobre a mesa... e o celular, virado para baixo.
 
 Nicole não tinha mandado nada desde mais cedo, e por algum motivo... ele reparou nisso.
-“Será que ela tá ocupada? Ou talvez só... sei lá, vivendo a vida dela.”
+"Será que ela tá ocupada? Ou talvez só... sei lá, vivendo a vida dela."
 
 Ele riu sozinho, meio bobo, e esticou os braços, deixando o corpo tombar um pouco na cadeira gamer. A playlist de lo-fi tocava baixinho. O ponteiro do mouse parou sobre uma linha de texto. O silêncio confortava.
 
@@ -600,7 +587,7 @@ A prévia da mensagem, com aquelas palavras simples, fez seus olhos arregalarem 
 Ele parou de respirar por um segundo. O nome na mensagem não aparecia, mas algo naquela frase... o jeito como foi escrita, direto ao ponto, mas com hesitação... fez sua mente correr pra memórias há muito tempo guardadas.
 
 Sentou na beira da cama, os olhos fixos no visor. O quarto parecia mais frio agora.
-“Será que é...?”
+"Será que é...?
 
 > "...eu só pensei em mandar isso hoje. Não tô esperando muita coisa, mas... precisava tentar."
 
@@ -622,8 +609,8 @@ Sem saber... que o passado estava voltando a bater à porta.
 
 Fim do capítulo.`,
 
-        // Capítulo 12
-        `Capítulo 12 — "Silêncios e Sinais"
+                // Capítulo 12
+                `Capítulo 12 — "Silêncios e Sinais"
 
 A semana começou com o céu nublado, como se refletisse o humor de Nick. O corredor da universidade estava cheio, mas ele caminhava entre os estudantes como se não estivesse ali de verdade, os olhos perdidos em pensamentos, as mãos nos bolsos do moletom cinza.
 
@@ -677,8 +664,8 @@ Enquanto o via se afastar, mexendo no celular com o mesmo olhar tenso, ela murmu
 
 Fim do capítulo.`,
 
-        // Capítulo 13
-        `Capítulo 13 — "A Conexão Perdida"
+                // Capítulo 13
+                `Capítulo 13 — "Entre Palavras Não Ditas"
 
 Nicole encarava a tela do celular enquanto rolava a conversa com Nick dos últimos dias. Tinha emoji, tinha piadinha, tinha até aquele gif besta que ele mandou semana passada quando ela disse que tava com cólica. Mas de uns dias pra cá… as respostas ficaram curtas. Os áudios pararam. Os emojis sumiram.
 
@@ -726,8 +713,8 @@ Você tá aqui… mas também não tá. E eu odeio esse meio-termo.
 
 Fim do capítulo.`,
 
-        // Capítulo 14
-        `Capítulo 14 — "Vozes do Passado"
+                // Capítulo 14
+                `Capítulo 14 — "Vozes do Passado"
 
 Depois de um longo dia de aula, Nick e Nicole caminham por uma rua tranquila, as mochilas penduradas preguiçosamente nos ombros, e os passos em sintonia — mesmo sem que eles percebam.
 
@@ -778,8 +765,8 @@ A tensão era suave, mas perceptível. E Nicole, mesmo sem entender exatamente o
 
 Fim do capítulo.`,
 
-        // Capítulo 15
-        `Capítulo 15 — "O Preço da Verdade"
+                // Capítulo 15
+                `Capítulo 15 — "Entre o Hoje e o Ontem"
 
 Os três caminharam juntos pela praça central, o céu já pintado de azul profundo, enquanto os postes começavam a se acender em tons quentes. A conversa fluiu... mais ou menos.
 
@@ -837,8 +824,8 @@ Nicole apenas assentiu, sem dizer nada. Eles começaram a andar de novo, lado a 
 
 Fim do capítulo.`,
 
-        // Capítulo 16
-        `Capítulo 16 — "Bem-vinda ao Inferno, Yuna"
+                // Capítulo 16
+                `Capítulo 16 — "Bem-vinda ao Inferno, Yuna"
 
 A manhã parecia como qualquer outra. O sol filtrava suavemente pelas janelas da sala 302, o ventilador de teto girava preguiçosamente, e os alunos estavam naquela vibe: metade acordados, metade arrependidos de ter saído da cama.
 
@@ -878,7 +865,7 @@ Nicole forçou um sorriso. Nick ainda estava travado, tentando entender como uma
 
 Yuna jogou a mochila no chão, puxou uma cadeira e se sentou entre os dois, como se fosse a coisa mais natural do mundo.
 
-Nicole olhava de lado, tentando esconder a expressão de “socorro”.
+Nicole olhava de lado, tentando esconder a expressão de "socorro".
 
 Nick soltou um suspiro e murmurou:
 
@@ -898,81 +885,8 @@ Spoiler: muita coisa ainda.
 
 Fim do capítulo.`,
 
-        // Capítulo 17
-        `Capítulo 17 — "O Refúgio"
-
-A primeira semana com Yuna na turma foi, no mínimo, agitada.
-
-Nick tentava manter a postura madura, fingindo que a presença dela não o abalava… mas era difícil quando ela vivia jogando aquelas indiretas sutis que só quem conhecia o passado dos dois pegava. Nicole? Tava fingindo que tava tudo bem. Mas seus olhos denunciavam que algo fervia por dentro.
-
-Na aula de tipografia, os alunos estavam em duplas fazendo esboços de fontes manuais. Nick e Nicole, como sempre, juntos. Mas dessa vez, Yuna arrastou a carteira dela até o lado.
-
-— “Ah, prof, posso ficar perto do Nick e da Nicole? Eu foco melhor quando tô perto de gente que eu já conheço.” — disse com aquele sorrisinho angelical que Nicole começou a desconfiar seriamente.
-
-Nick segurou o riso, tentando evitar um comentário tipo “clichê de anime”. Nicole bufou baixinho, mas manteve o pincel na mão.
-
-— “Claro, claro... quanto mais gente junta, mais chance de bagunça. Mas também mais chance de sair algo bom.” — respondeu Takashima, já pegando o celular pra tirar selfies com a planta do fundo da sala (ninguém entendia).
-
-As três cadeiras lado a lado criaram uma zona de tensão silenciosa. Nicole desenhava concentrada. Nick tentava não parecer nervoso. Yuna, bem… ela puxava assunto como se tivesse reencontrado um velho crush da escola.
-
-— “Ainda desenha igualzinho, Nick. Teu traço tem a mesma pegada melancólica de sempre. Bonito. Meio triste, mas bonito.”
-
-Nicole parou por um segundo.
-
-— “Você fala como se fosse crítica de arte.”
-
-— “Ué, talvez eu seja.” — piscou Yuna, esticando a língua.
-
-Nick olhou pra frente, fingindo não ouvir.
-
-— “Pelo menos a Nicole tem um estilo mais vibrante… parece mais viva, mais espontânea.”
-
-Nicole engasgou com a própria saliva. Nick tossiu.
-
-— “Do nada, né.” — ele murmurou.
-
-— “Só uma observação honesta. Já que agora somos colegas, né? Melhor se conhecer bem.”
-
-Nicole respondeu com um sorriso simpático. Mas quem a conhecia sabia: aquele era o sorriso que precedia um ataque carregado de sarcasmo.
-
-— “Claro. Sempre bom conhecer quem chega com tanta… intimidade*.
-
-Nick olhou de lado, levantando as sobrancelhas como quem dizia “calma, respira”. Yuna deu um risinho, percebendo a cutucada, mas não revidou. Pelo menos não naquele momento.
-
-Quando o sinal tocou, a sala explodiu em barulho. Todos começaram a guardar seus materiais. Nick e Nicole ficaram pra trás, como sempre, enrolando pra sair. Yuna, ao contrário, juntou as coisas rapidinho.
-
-— “Nick, vou indo primeiro. A gente se fala depois?”
-
-— “Claro.” — ele respondeu, rápido demais.
-
-Ela sorriu e foi embora. Nicole ficou olhando até a porta se fechar. Depois, olhou pro Nick.
-
-— “Você tá bem?”
-
-— “Tô.” — ele respondeu sem hesitar, mas não a olhou nos olhos.
-
-— “É que… desde que ela apareceu, você anda diferente.”
-
-— “É só o baque da surpresa. Nada demais.”
-
-Nicole não respondeu de imediato. Apenas ficou ali, olhando pra frente.
-
-— “Bom, se tiver algo que você queira falar… eu tô aqui. Mesmo que você demore pra perceber.”
-
-Nick olhou pra ela dessa vez. Seus olhos se encontraram por um breve momento — silencioso, pesado, mas cheio de coisa não dita.
-
-Então Nicole levantou, jogou a mochila no ombro, e disse com um sorriso forçado:
-
-— “Bora. Antes que o Takashima resolva dar mais uma palestra sobre fontes usando Power Rangers como exemplo.”
-
-Nick riu. Alívio cômico. Mas o peso ainda pairava no ar. E, sem perceber, os dois andaram lado a lado até a saída da sala. Sem se tocarem, sem dizer nada… mas sentindo tudo.
-
----
-
-Fim do capítulo.`,
-
-        // Capítulo 18
-        `Capítulo 18 — "Torta de climão com cobertura de sarcasmo"
+                // Capítulo 17
+                `Capítulo 17 — "Torta de climão com cobertura de sarcasmo"
 
 O clima naquele fim de tarde era diferente.
 
@@ -980,75 +894,75 @@ Depois da aula, Nicole e Nick decidiram caminhar até um parque próximo da univ
 
 Sentaram-se num banco de madeira meio gasto, sob uma árvore alta que dançava com o vento. Nicole, ainda com a mochila nos ombros, olhou pro lado e notou o olhar distante de Nick.
 
-— “Você tá em outro mundo de novo.” — ela comentou com um meio sorriso.
+— "Você tá em outro mundo de novo." — ela comentou com um meio sorriso.
 
 Nick soltou uma risada curta, baixando os olhos.
 
-— “Desculpa. Tô só… pensando.”
+— "Desculpa. Tô só… pensando."
 
 Nicole virou um pouco o corpo na direção dele, cruzando as pernas no banco.
 
-— “É sobre a Yuna, né?”
+— "É sobre a Yuna, né?"
 
 Nick hesitou. Era a primeira vez que ela falava o nome da outra em voz alta.
 
-— “É.”
+— "É."
 
-— “Quer me contar?”
+— "Quer me contar?"
 
 O som das folhas balançando suavemente preencheu o espaço entre a pergunta e a resposta. Nick demorou a começar.
 
-— “A gente se conheceu quando eu tinha uns 17. Eu tava numa fase… difícil. Coisas em casa, escola, aquele sentimento de que nada fazia muito sentido. E ela apareceu tipo um cometa. Brilhante, barulhenta, diferente.”
+— "A gente se conheceu quando eu tinha uns 17. Eu tava numa fase… difícil. Coisas em casa, escola, aquele sentimento de que nada fazia muito sentido. E ela apareceu tipo um cometa. Brilhante, barulhenta, diferente."
 
 Nicole prestava atenção em cada palavra, sem interromper.
 
-— “Ela me tirou de um buraco. Foi a primeira pessoa que me ouviu de verdade. A gente ficou junto por um tempo. Não muito... mas foi intenso. Eu achava que sabia o que era amar alguém. Hoje… não sei se era amor ou só… salvação.”
+— "Ela me tirou de um buraco. Foi a primeira pessoa que me ouviu de verdade. A gente ficou junto por um tempo. Não muito... mas foi intenso. Eu achava que sabia o que era amar alguém. Hoje… não sei se era amor ou só… salvação."
 
 Nicole mordeu o lábio inferior, pensativa.
 
-— “E por que acabou?”
+— "E por que acabou?"
 
 Nick olhou pro céu por um instante, como se tentando encontrar a resposta entre as nuvens.
 
-— “Porque a vida puxou a gente pra direções diferentes. Ela queria liberdade. Eu queria me entender primeiro. E… teve uma coisa que aconteceu.”
+— "Porque a vida puxou a gente pra direções diferentes. Ela queria liberdade. Eu queria me entender primeiro. E… teve uma coisa que aconteceu."
 
 Nicole esperou, mas ele não continuou.
 
-— “Você ainda gosta dela?”
+— "Você ainda gosta dela?"
 
 Nick virou o rosto na direção dela. O vento jogou uma mecha de cabelo sobre os olhos de Nicole, e ele, quase sem pensar, afastou com a mão.
 
 Um toque leve. Íntimo. Rápido demais pra ser percebido como algo além de um gesto simples. Mas entre eles… significou muito.
 
-— “Tem coisas que a gente nunca esquece.” — ele disse, finalmente. — “Mas… tem coisas novas que a gente começa a querer lembrar, também.”
+— "Tem coisas que a gente nunca esquece. — ele disse, finalmente. — "Mas… tem coisas novas que a gente começa a querer lembrar, também."
 
 Nicole sentiu o coração acelerar. Mas antes que ela pudesse processar a frase, Nick levantou lentamente, enfiando as mãos nos bolsos do moletom.
 
-— “Nicole…” — a voz dele soou mais baixa. — “Tem uma parte da história que eu nunca contei pra ninguém. Nem pros meus amigos mais próximos.”
+— "Nicole…" — a voz dele soou mais baixa. — "Tem uma parte da história que eu nunca contei pra ninguém. Nem pros meus amigos mais próximos."
 
 Ela ficou em silêncio, esperando.
 
 Nick encarou o chão por um momento, respirou fundo… e então começou:
 
-— “Naquela época… quando tudo parecia estar indo bem… a Yuna desapareceu da noite pro dia. Sumiu. Sem uma mensagem, sem explicação. Fiquei semanas tentando entender. Até que recebi uma carta.”
+— "Naquela época… quando tudo parecia estar indo bem… a Yuna desapareceu da noite pro dia. Sumiu. Sem uma mensagem, sem explicação. Fiquei semanas tentando entender. Até que recebi uma carta."
 
 Nicole arregalou um pouco os olhos. A voz dele estava mais pesada agora, mais amarga.
 
-— “A carta dizia que ela precisava fugir. Que tinha feito algo errado. Que não podia me envolver. E pediu… pra eu esquecê-la.”
+— "A carta dizia que ela precisava fugir. Que tinha feito algo errado. Que não podia me envolver. E pediu… pra eu esquecê-la."
 
 O silêncio voltou.
 
 Nick sentou de novo, mais devagar desta vez.
 
-— “Eu tentei seguir em frente. E, aos poucos, consegui. Até que ela apareceu aqui… como se nada tivesse acontecido.”
+— "Eu tentei seguir em frente. E, aos poucos, consegui. Até que ela apareceu aqui… como se nada tivesse acontecido."
 
 Nicole sentiu um aperto no peito. Não sabia exatamente o que dizer. Mas, mais do que nunca, queria estar ali. Com ele. Pra ele.
 
-— “Por que ela voltou agora?”
+— "Por que ela voltou agora?"
 
 Nick respondeu com um sorriso triste.
 
-— “É o que eu tô tentando descobrir.”
+— "É o que eu tô tentando descobrir."
 
 E então, vibração no bolso. O celular de Nick.
 
@@ -1058,18 +972,115 @@ Nick bloqueou o celular sem dizer uma palavra. E ficou ali, com o olhar fixo no 
 
 Nicole sentiu um arrepio. Algo no ar tinha mudado.
 
-— “Nick… o que foi?”
+— "Nick… o que foi?"
 
 Ele demorou, mas respondeu:
 
-— “A carta… era falsa.”
+— "A carta… era falsa."
 
 ---
 
 Fim do capítulo.`,
 
-        // Capítulo 19
-        `Capítulo 19 — "A Caçadora de Sombras"
+                // Capítulo 18
+                `Capítulo 18 — "Coisas que o tempo não leva"
+
+O clima naquele fim de tarde era diferente.
+
+Depois da aula, Nicole e Nick decidiram caminhar até um parque próximo da universidade. Não foi algo planejado — só aconteceu. A brisa estava fresca, o céu pintado de tons dourados e azul-acinzentado, e o silêncio entre eles não era desconfortável… era um silêncio tranquilo, daqueles que só acontece com quem se sente bem junto.
+
+Sentaram-se num banco de madeira meio gasto, sob uma árvore alta que dançava com o vento. Nicole, ainda com a mochila nos ombros, olhou pro lado e notou o olhar distante de Nick.
+
+— "Você tá em outro mundo de novo." — ela comentou com um meio sorriso.
+
+Nick soltou uma risada curta, baixando os olhos.
+
+— "Desculpa. Tô só… pensando."
+
+Nicole virou um pouco o corpo na direção dele, cruzando as pernas no banco.
+
+— "É sobre a Yuna, né?"
+
+Nick hesitou. Era a primeira vez que ela falava o nome da outra em voz alta.
+
+— "É."
+
+— "Quer me contar?"
+
+O som das folhas balançando suavemente preencheu o espaço entre a pergunta e a resposta. Nick demorou a começar.
+
+— "A gente se conheceu quando eu tinha uns 17. Eu tava numa fase… difícil. Coisas em casa, escola, aquele sentimento de que nada fazia muito sentido. E ela apareceu tipo um cometa. Brilhante, barulhenta, diferente."
+
+Nicole prestava atenção em cada palavra, sem interromper.
+
+— "Ela me tirou de um buraco. Foi a primeira pessoa que me ouviu de verdade. A gente ficou junto por um tempo. Não muito... mas foi intenso. Eu achava que sabia o que era amar alguém. Hoje… não sei se era amor ou só… salvação."
+
+Nicole mordeu o lábio inferior, pensativa.
+
+— "E por que acabou?"
+
+Nick olhou pro céu por um instante, como se tentando encontrar a resposta entre as nuvens.
+
+— "Porque a vida puxou a gente pra direções diferentes. Ela queria liberdade. Eu queria me entender primeiro. E… teve uma coisa que aconteceu."
+
+Nicole esperou, mas ele não continuou.
+
+— "Você ainda gosta dela?"
+
+Nick virou o rosto na direção dela. O vento jogou uma mecha de cabelo sobre os olhos de Nicole, e ele, quase sem pensar, afastou com a mão.
+
+Um toque leve. Íntimo. Rápido demais pra ser percebido como algo além de um gesto simples. Mas entre eles… significou muito.
+
+— "Tem coisas que a gente nunca esquece. — ele disse, finalmente. — "Mas… tem coisas novas que a gente começa a querer lembrar, também."
+
+Nicole sentiu o coração acelerar. Mas antes que ela pudesse processar a frase, Nick levantou lentamente, enfiando as mãos nos bolsos do moletom.
+
+— "Nicole…" — a voz dele soou mais baixa. — "Tem uma parte da história que eu nunca contei pra ninguém. Nem pros meus amigos mais próximos."
+
+Ela ficou em silêncio, esperando.
+
+Nick encarou o chão por um momento, respirou fundo… e então começou:
+
+— "Naquela época… quando tudo parecia estar indo bem… a Yuna desapareceu da noite pro dia. Sumiu. Sem uma mensagem, sem explicação. Fiquei semanas tentando entender. Até que recebi uma carta."
+
+Nicole arregalou um pouco os olhos. A voz dele estava mais pesada agora, mais amarga.
+
+— "A carta dizia que ela precisava fugir. Que tinha feito algo errado. Que não podia me envolver. E pediu… pra eu esquecê-la."
+
+O silêncio voltou.
+
+Nick sentou de novo, mais devagar desta vez.
+
+— "Eu tentei seguir em frente. E, aos poucos, consegui. Até que ela apareceu aqui… como se nada tivesse acontecido."
+
+Nicole sentiu um aperto no peito. Não sabia exatamente o que dizer. Mas, mais do que nunca, queria estar ali. Com ele. Pra ele.
+
+— "Por que ela voltou agora?"
+
+Nick respondeu com um sorriso triste.
+
+— "É o que eu tô tentando descobrir."
+
+E então, vibração no bolso. O celular de Nick.
+
+Ele puxou o aparelho, olhou a tela e empalideceu por um instante. Nicole tentou espiar, mas não conseguiu ver.
+
+Nick bloqueou o celular sem dizer uma palavra. E ficou ali, com o olhar fixo no horizonte.
+
+Nicole sentiu um arrepio. Algo no ar tinha mudado.
+
+— "Nick… o que foi?"
+
+Ele demorou, mas respondeu:
+
+— "A carta… era falsa."
+
+---
+
+Fim do capítulo.`,
+
+                // Capítulo 19
+                `Capítulo 19 — "Entre Linhas e Silêncios"
 
 O dia seguinte chegou nublado, como se o céu refletisse o que estava dentro de Nick.
 
@@ -1089,37 +1100,37 @@ Ainda não era amor — ou talvez fosse, só que ele não percebia.
 
 Naquela tarde, Nicole o encontrou na biblioteca, como sempre fazia.
 
-— “Você sumiu de novo hoje…” — ela disse, largando a mochila na mesa. — “Tava começando a achar que ia precisar fazer um cartaz de ‘procura-se’.”
+— "Você sumiu de novo hoje…" — ela disse, largando a mochila na mesa. — "Tava começando a achar que ia precisar fazer um cartaz de 'procura-se'."
 
 Nick sorriu, mas era um sorriso cansado.
 
-— “Só… precisava pensar.”
+— "Só… precisava pensar."
 
 Ela sentou-se ao lado dele, observando o rosto abatido.
 
-— “Quer conversar?”
+— "Quer conversar?"
 
-— “Quero. Mas não agora. Acho que… só preciso de uma distração.”
+— "Quero. Mas não agora. Acho que… só preciso de uma distração."
 
 Nicole então levantou com um brilho nos olhos, segurando a mão dele com leveza:
 
-— “Vem comigo.”
+— "Vem comigo."
 
-— “Pra onde?”
+— "Pra onde?"
 
-— “Só vem. Confia.”
+— "Só vem. Confia."
 
 Eles saíram da biblioteca e andaram até uma praça mais afastada do campus. Ali, havia uma pequena feirinha rolando — com barraquinhas de artesanato, doces e jogos bobos.
 
 Nicole foi direto até uma barraca de pelúcias.
 
-— “Pronto. Sua distração.” — ela pegou uma bolinha e apontou pro jogo de acertar latas.
+— "Pronto. Sua distração." — ela pegou uma bolinha e apontou pro jogo de acertar latas.
 
 Nick arqueou uma sobrancelha.
 
-— “Você me trouxe aqui pra jogar isso?”
+— "Você me trouxe aqui pra jogar isso?"
 
-— “Sim. Perdeu a chance de dizer ‘não’ quando segurou minha mão.”
+— "Sim. Perdeu a chance de dizer 'não' quando segurou minha mão."
 
 Ele riu, pela primeira vez no dia. Um riso de verdade.
 
@@ -1127,21 +1138,21 @@ Jogaram, erraram quase tudo, riram mais ainda. Nicole fazia vozes dramáticas ca
 
 No fim, o atendente da barraca deu pra eles uma mini pelúcia de consolo: um gatinho preto com olhos grandes.
 
-— “Toma. Isso é um prêmio de casal.” — disse o rapaz, sorrindo.
+— "Toma. Isso é um prêmio de casal." — disse o rapaz, sorrindo.
 
 Nick e Nicole se entreolharam.
 
-— “A gente não—” — começaram a dizer ao mesmo tempo… e então riram juntos, desviando o olhar.
+— "A gente não—" — começaram a dizer ao mesmo tempo… e então riram juntos, desviando o olhar.
 
 A pelúcia ficou nas mãos de Nicole, que a segurou com carinho.
 
 Enquanto voltavam devagar pro campus, com o fim de tarde tingindo o céu, Nicole falou suavemente:
 
-— “Se quiser conversar um dia sobre o que você passou… Eu tô aqui.”
+— "Se quiser conversar um dia sobre o que você passou… Eu tô aqui."
 
 Nick olhou pra ela. O cabelo levemente bagunçado pelo vento, o jeito tranquilo e presente… e naquele instante, algo dentro dele pareceu afrouxar.
 
-— “Obrigado. Eu sei disso.”
+— "Obrigado. Eu sei disso."
 
 Ficaram em silêncio depois disso.
 
@@ -1155,125 +1166,8 @@ Mas o vento já soprava diferente.
 
 Fim do capítulo.`,
 
-        // Capítulo 20
-        `Capítulo 20 — "Entre Linhas e Silêncios"
-
-Nicole estava inquieta.
-
-Era estranho. Desde aquele passeio na feirinha com Nick, algo dentro dela parecia diferente. Um desconforto no peito que surgia sempre que ele sorria… mas também um calor gostoso, como se aquele momento tivesse deixado uma marca.
-
-Ela não entendia.
-
-“Não é como se ele fosse meu… então por que eu sinto isso quando ele fala com a Yuna?”
-
-Naquela tarde, depois da aula, Nicole ficou sentada sozinha no jardim da universidade. Seus olhos vagavam pelo céu enquanto seus dedos brincavam com a pequena pelúcia de gatinho que ainda carregava na mochila.
-
-"Por que isso me incomoda tanto?"
-
-A brisa era leve. Mas dentro dela, uma tempestade pequena crescia.
-
-Ela puxou o celular, abriu a galeria e olhou uma foto que tinha tirado discretamente de Nick rindo na barraca de jogos. Ela nem sabia por que tinha salvo. Só… parecia importante.
-
-Suspirou fundo.
-
-— “Você tá esquisita.” — disse a própria Nicole, murmurando.
-
-Então, sem perceber, seus pensamentos voltaram a outro tempo.
-
-– Três anos antes
-
-Era o último ano do ensino médio. Nicole estava sentada no pátio da escola, com as pernas cruzadas, ouvindo música no fone enquanto desenhava num caderno velho.
-
-Ela não era o tipo de garota que se enturmava fácil. Era tranquila, na dela… e todo mundo achava que ela era "fria".
-
-Naquele dia, um grupo de meninas passou por ela rindo alto.
-
-— “Ela só vive desenhando essas coisas sombrias… deve tá fazendo voodoo.”
-
-Nicole fingiu que não ouviu. Mas aquilo sempre machucava um pouco.
-
-Foi ali que ela prometeu que nunca deixaria ninguém se aproximar de verdade. Pessoas machucam. Pessoas vão embora.
-
-Mas então… ela entrou na faculdade. E conheceu ele.
-
-Nick não invadiu o espaço dela. Ele se aproximou devagar. Com respeito, com atenção. Sem forçar.
-
-E o jeito como ele a tratava… a ouvia… a fazia rir…
-
-Era diferente.
-
----------
-
-Nicole piscou, voltando à realidade.
-
-Agora tudo fazia mais sentido. O motivo de ficar inquieta quando ele sumia. A raiva sutil quando ele se afastava. O ciúmes que ela nem queria admitir quando Yuna aparecia do nada.
-
-Ela tava começando a entender que não era só amizade.
-
-Mas também… não era amor.
-
-Ainda.
-
-Ou talvez fosse, e ela só não queria aceitar.
-
-Nick apareceu no canto do jardim, caminhando tranquilo, com a mochila pendurada num ombro só. Quando viu Nicole, sorriu daquele jeitinho que desmontava qualquer barreira que ela ainda tentava manter.
-
-— “Nicole?”
-
-Ela levantou o olhar, tentando parecer normal.
-
-— “Ah. Oi. Só tava pensando na vida.”
-
-Ele se sentou ao lado dela, olhando pro céu.
-
-— “Pensando em fugir da faculdade também, ou só filosofando mesmo?”
-
-Ela deu um sorrisinho torto.
-
-— “Talvez os dois.”
-
-Ficaram em silêncio por alguns minutos.
-
-E foi Nick quem quebrou primeiro:
-
-— “Você… parece distante. Tá tudo bem?”
-
-Nicole hesitou. Por um segundo, quis dizer tudo. Que tava com medo, que tava confusa, que tava… sentindo.
-
-Mas só respondeu:
-
-— “Tô. Só… com a cabeça cheia. Sabe como é.”
-
-Ele assentiu. E então tirou da mochila uma garrafinha de chá gelado.
-
-— “Trouxe isso pra você. Achei com gosto de morango, que nem aquele pirulito que você roubou da minha mochila semana passada.”
-
-Nicole riu, pegando a garrafa.
-
-— “Não roubei. Foi empréstimo compulsório.”
-
-— “Com juros, aparentemente.”
-
-— “Bem-vindo ao sistema.”
-
-Eles riram juntos.
-
-E naquele instante, ela percebeu: não importava o quanto tentasse fugir do que sentia, ele sempre dava um jeito de fazer o mundo dela parecer mais leve.
-
-Nicole olhou pra ele de lado.
-
-E no fundo… bem no fundo…
-
-Começava a aceitar que talvez… só talvez…
-
-Estivesse apaixonada.
-
----
-
-Fim do capítulo.`,
-
-        // Capítulo 21
-        `Capítulo 21 — "Entre Memórias e Espelhos"
+                // Capítulo 20
+                `Capítulo 20 — "Entre Memórias e Espelhos"
 
 O som dos tênis de sola gasta da Yuna ecoava pelos corredores da faculdade enquanto ela segurava uma pilha de livros contra o peito. O sol filtrava pelas janelas altas, lançando reflexos dourados em seus cabelos ruivos, cujas pontas roxas balançavam ao ritmo dos seus passos.
 
@@ -1289,7 +1183,7 @@ Era o último semestre do ensino médio.
 
 Yuna caminhava apressada pelos corredores da escola, o celular vibrando sem parar na mão. No visor, várias mensagens de casa. Da mãe. Do hospital.
 
-— “Não agora… por favor…” — ela murmurava, com a voz trêmula.
+— "Não agora… por favor…" — ela murmurava, com a voz trêmula.
 
 Nick estava lá fora, esperando ela sair da aula pra mais um daqueles encontros que sempre terminavam com risadas e milkshakes de chocolate.
 
@@ -1303,7 +1197,7 @@ Mas o coração dela estava quebrado demais pra explicar.
 
 E o medo de machucar ainda mais alguém… fez ela se calar.
 
-“É melhor assim…”, pensava enquanto olhava o celular tremendo nas mãos, a foto de Nick com aquele sorrisinho bobo ainda no papel de parede da tela.
+"É melhor assim…", pensava enquanto olhava o celular tremendo nas mãos, a foto de Nick com aquele sorrisinho bobo ainda no papel de parede da tela.
 
 Ela apagou o número dele.
 
@@ -1345,7 +1239,7 @@ Ela sorriu.
 
 Um sorriso pequeno, cheio de lembrança e aceitação.
 
-“Ele seguiu em frente… e tá bem.”
+"Ele seguiu em frente… e tá bem."
 
 Por um instante, pensou em ir embora sem dizer nada. Deixar as coisas como estavam.
 
@@ -1357,7 +1251,7 @@ E foi ali que ela deu o passo.
 
 Chamou o nome dele.
 
-— “Nick?”
+— "Nick?"
 
 O resto… o tempo começou a escrever outra vez.
 
@@ -1367,7 +1261,7 @@ Yuna estava sentada sozinha no laboratório de informática, digitando num dos P
 
 Ela olhou a arte e suspirou.
 
-— “É engraçado… como mesmo depois de tanto tempo… você ainda me inspira.”
+— "É engraçado… como mesmo depois de tanto tempo… você ainda me inspira."
 
 Mas agora… era diferente.
 
@@ -1389,8 +1283,8 @@ Ou talvez… só a certeza de que alguns amores, mesmo se perdendo no caminho, c
 
 Fim do capítulo.`,
 
-        // Capítulo 22
-        `Capítulo 22 — "Quando a Distância Dói"
+                // Capítulo 21
+                `Capítulo 21 — "Quando a Distância Dói"
 
 O clima no campus estava diferente naquele dia.
 
@@ -1402,25 +1296,25 @@ Nick estava deitado num dos pufes, segurando o celular sobre a cabeça.
 
 Nicole estava no pufe ao lado, com os pés cruzados, desenhando algo no tablet.
 
-— “Você sabia que o seu nome tá salvo no meu celular como ‘Calouro 2’? — disse Nick, do nada.
+— "Você sabia que o seu nome tá salvo no meu celular como 'Calouro 2'? — disse Nick, do nada.
 
 Nicole levantou uma sobrancelha.
 
-— “Você é patético.”
+— "Você é patético."
 
-— “É que eu não sabia teu nome ainda. Depois esqueci de mudar. Aí virou marca.”
+— "É que eu não sabia teu nome ainda. Depois esqueci de mudar. Aí virou marca."
 
-— “Você ainda tem o adesivo do meu caderno com o meu nome colado na tampa do teu notebook.”
+— "Você ainda tem o adesivo do meu caderno com o meu nome colado na tampa do teu notebook."
 
-— “Detalhes.”
+— "Detalhes."
 
 Nicole balançou a cabeça, mas não segurou o riso.
 
-— “Ok. E o meu nome tá salvo como ‘Calouro 2’. O seu tá salvo como ‘Veterano Barulhento’.”
+— "Ok. E o meu nome tá salvo como 'Calouro 2'. O seu tá salvo como 'Veterano Barulhento'."
 
-— “Olha só, que romântico.”
+— "Olha só, que romântico."
 
-— “A gente se ama.” — ela respondeu, irônica, com o tablet ainda nas mãos.
+— "A gente se ama." — ela respondeu, irônica, com o tablet ainda nas mãos.
 
 Silêncio.
 
@@ -1428,11 +1322,11 @@ Depois de dois segundos…
 
 Nick tossiu.
 
-— “Nossa… quase engasguei com meu próprio ar.”
+— "Nossa… quase engasguei com meu próprio ar."
 
 Nicole riu.
 
-— “Bebê.”
+— "Bebê."
 
 Do outro lado do lounge, uma figura ruiva com as pontas roxas caminhava com um copo de chá quente, óculos escorregando um pouco no nariz, e uma camiseta raglan com uma estampa de um anime obscuro que ninguém além dela parecia reconhecer.
 
@@ -1440,11 +1334,11 @@ Yuna.
 
 Ela parou por um segundo, olhando discretamente para o casal de pufes do outro lado. Sorriu de canto. Depois, calmamente, seguiu até o balcão e disse:
 
-— “O chá de pêssego do Nick. Menos açúcar. Ele sempre esquece que tem gastrite.”
+— "O chá de pêssego do Nick. Menos açúcar. Ele sempre esquece que tem gastrite."
 
 A barista, confusa, respondeu:
 
-— “Hã? Desculpa… quem é você?”
+— "Hã? Desculpa… quem é você?"
 
 Yuna só piscou devagar, pegou o chá e foi até uma mesa afastada, como se fosse só mais uma pessoa comum no campus.
 
@@ -1452,23 +1346,23 @@ Nick e Nicole nem perceberam.
 
 De volta aos pufes, Nick havia se sentado.
 
-— “Cê já percebeu que, tipo, se a gente fosse um casal num anime, o fandom ia surtar toda vez que a gente encosta o dedo um no outro?”
+— "Cê já percebeu que, tipo, se a gente fosse um casal num anime, o fandom ia surtar toda vez que a gente encosta o dedo um no outro?"
 
 Nicole rolou os olhos, mas uma risada escapou.
 
-— “Nick, eu literalmente te dei uma cotovelada semana passada porque você comeu meu biscoito.”
+— "Nick, eu literalmente te dei uma cotovelada semana passada porque você comeu meu biscoito."
 
-— “Isso foi um momento de tensão sexual.”
+— "Isso foi um momento de tensão sexual."
 
 Nicole jogou uma almofada nele, que caiu pra trás no pufe com um som abafado.
 
-— “Tô anotando isso no meu caderno de absurdos.”
+— "Tô anotando isso no meu caderno de absurdos."
 
 Nick reapareceu de cabeça pra baixo, os cabelos caindo pro lado do rosto.
 
-— “Eu sou tipo o bad boy do ensino médio que não sabe lidar com sentimentos.”
+— "Eu sou tipo o bad boy do ensino médio que não sabe lidar com sentimentos."
 
-— “Você é o NPC que vende caneta no intervalo.”
+— "Você é o NPC que vende caneta no intervalo."
 
 Eles riram. Os olhos se encontraram por um instante mais longo do que deveria. Mas logo desviaram. O silêncio foi preenchido com a trilha leve que tocava no lounge, e o som distante da Yuna assoprando seu chá numa mesa do canto.
 
@@ -1482,125 +1376,198 @@ Como uma sombra tranquila que entendia que certas histórias não precisam ser r
 
 Fim do capítulo.`,
 
-        // Capítulo 23
-        `Capítulo 23 — "A Lei do Chá Derramado"
+                // Capítulo 22
+                `Capítulo 22 — "O Fim Que É Um Começo"
 
-Era sexta-feira, e o campus estava mais tranquilo que o normal. Fim de tarde, luz dourada, céu meio alaranjado… um daqueles dias em que tudo parece prestes a virar lembrança bonita.
+O clima no campus estava diferente naquele dia.
 
-Nick e Nicole estavam sentados na escadaria lateral do prédio de artes, dividindo um pacote de biscoito recheado e rindo de alguma história do Takashima envolvendo um projetor, uma apresentação errada e um PowerPoint com fotos de gatos vestidos de samurais.
+Talvez fosse o vento mais fresco, talvez o fato de Takashima não ter aparecido com outra camisa absurda. Talvez fosse só o fato de que, apesar das turbulências internas, Nick e Nicole estavam começando a se acostumar com aquele espaço entre eles… que não era amizade, mas ainda não era mais do que isso.
 
-— “Você jura que ele mostrou aquilo achando que era a aula?” — Nicole tentava falar enquanto ria, o biscoito quase escapando da mão.
+Depois da aula, os dois decidiram ir ao pequeno lounge novo da faculdade. Uma cafeteria improvisada com pufes espalhados, iluminação aconchegante e baristas com cara de quem largaram o ensino médio semana passada.
 
-— “E ele só percebeu depois de dez minutos… quando um aluno perguntou se ‘Ronin-gato’ era algum tipo de estilo tipográfico.”
+Nick estava deitado num dos pufes, segurando o celular sobre a cabeça.
 
-Nicole deitou a cabeça no ombro dele por um segundo, sem pensar muito. Foi natural.
+Nicole estava no pufe ao lado, com os pés cruzados, desenhando algo no tablet.
 
-Nick congelou por um instante.
+— "Você sabia que o seu nome tá salvo no meu celular como 'Calouro 2'? — disse Nick, do nada.
 
-Ela percebeu e se afastou logo em seguida, tentando disfarçar.
+Nicole levantou uma sobrancelha.
 
-— “Foi mal.”
+— "Você é patético."
 
-— “Tá tudo bem.”
+— "É que eu não sabia teu nome ainda. Depois esqueci de mudar. Aí virou marca."
+
+— "Você ainda tem o adesivo do meu caderno com o meu nome colado na tampa do teu notebook."
+
+— "Detalhes."
+
+Nicole balançou a cabeça, mas não segurou o riso.
+
+— "Ok. E o meu nome tá salvo como 'Calouro 2'. O seu tá salvo como 'Veterano Barulhento'."
+
+— "Olha só, que romântico."
+
+— "A gente se ama." — ela respondeu, irônica, com o tablet ainda nas mãos.
 
 Silêncio.
 
-Mas não era desconfortável. Era... cheio.
+Depois de dois segundos…
 
-As risadas sumiram aos poucos, e o momento ficou suspenso. Um leve sopro de vento. Um arrepio que não tinha nada a ver com frio.
+Nick tossiu.
 
-Nick olhou pra ela. Os olhos de Nicole estavam fixos no horizonte, mas ele sabia que ela sentia o olhar dele.
+— "Nossa… quase engasguei com meu próprio ar."
 
-— “Você tá bonita hoje.”
+Nicole riu.
 
-Nicole virou o rosto devagar.
-Os olhos se encontraram.
+— "Bebê."
 
-— “Você tá mais idiota que o normal hoje.”
+Do outro lado do lounge, uma figura ruiva com as pontas roxas caminhava com um copo de chá quente, óculos escorregando um pouco no nariz, e uma camiseta raglan com uma estampa de um anime obscuro que ninguém além dela parecia reconhecer.
 
-Mas o sorriso dela dizia outra coisa.
+Yuna.
 
-Nick abriu a boca pra responder — e então:
+Ela parou por um segundo, olhando discretamente para o casal de pufes do outro lado. Sorriu de canto. Depois, calmamente, seguiu até o balcão e disse:
 
-— “Yo.”
+— "O chá de pêssego do Nick. Menos açúcar. Ele sempre esquece que tem gastrite."
 
-A voz conhecida de Yuna quebrou o momento como uma pedrinha jogada num lago calmo.
+A barista, confusa, respondeu:
 
-Ela apareceu no topo da escada, apoiada no corrimão, uma mochila jogada no ombro e uma garrafinha de chá na mão.
+— "Hã? Desculpa… quem é você?"
 
-— “Tô interrompendo um momento shoujo aqui ou posso sentar também?”
+Yuna só piscou devagar, pegou o chá e foi até uma mesa afastada, como se fosse só mais uma pessoa comum no campus.
 
-Nicole deu um sorrisinho.
-Nick suspirou, mas acenou.
+Nick e Nicole nem perceberam.
 
-Yuna sentou no degrau acima dos dois, deixando um espaço proposital entre eles.
+De volta aos pufes, Nick havia se sentado.
 
-— “Vi vocês daqui de cima. Vocês têm essa vibe de casal de anime que demora cinquenta episódios pra admitir que se gosta.”
+— "Cê já percebeu que, tipo, se a gente fosse um casal num anime, o fandom ia surtar toda vez que a gente encosta o dedo um no outro?"
 
-— “Tem gente que demora mais.” — Nicole respondeu, com leve ironia e um leve peso emocional por trás.
+Nicole rolou os olhos, mas uma risada escapou.
 
-Yuna riu, sincera.
+— "Nick, eu literalmente te dei uma cotovelada semana passada porque você comeu meu biscoito."
 
-— “É… tem sim.”
+— "Isso foi um momento de tensão sexual."
 
-Ficaram ali por alguns minutos, sem dizer muita coisa. O céu começava a escurecer aos poucos. Os postes acendiam. A noite chegava.
+Nicole jogou uma almofada nele, que caiu pra trás no pufe com um som abafado.
 
-Yuna se levantou primeiro.
+— "Tô anotando isso no meu caderno de absurdos."
 
-— “Bom… acho que já me intrometi demais por hoje. E talvez por sempre.”
+Nick reapareceu de cabeça pra baixo, os cabelos caindo pro lado do rosto.
 
-Nick levantou também, meio sem jeito.
+— "Eu sou tipo o bad boy do ensino médio que não sabe lidar com sentimentos."
 
-— “Yuna…”
+— "Você é o NPC que vende caneta no intervalo."
 
-— “Tá tudo bem.” — ela respondeu antes que ele completasse. — “Sério. Vocês ficam bem juntos.”
+Eles riram. Os olhos se encontraram por um instante mais longo do que deveria. Mas logo desviaram. O silêncio foi preenchido com a trilha leve que tocava no lounge, e o som distante da Yuna assoprando seu chá numa mesa do canto.
 
-Ela ajeitou os óculos, olhou pra Nicole e deu um sorriso sincero.
+Longe… mas não tão longe.
 
-— “Cuida bem dele, tá? Ele é melhor do que parece… mesmo sendo um completo desastre com sentimentos.”
+A garota ruiva observava de leve, sem invadir. E mesmo sem se intrometer, era parte daquele cenário.
 
-Nicole só assentiu, com um nó na garganta.
-
-Yuna acenou com dois dedos e virou-se para ir embora.
-
-Nick e Nicole ficaram em silêncio. O tempo parecia ter parado de novo. A escada, o céu, o vento leve… tudo empurrava os dois em direção a algo que ainda não sabiam nomear.
-
-Nick, com a mochila pendurada num ombro, coçou a nuca.
-
-— “Ei… Nicole?”
-
-— “Hmm?”
-
-— “Você… quer sair comigo amanhã?”
-
-Nicole piscou.
-— “Tipo sair…?”
-
-Nick desviou o olhar, tentando parecer natural — mas as orelhas vermelhas entregavam tudo.
-
-— “Tipo… só nós dois. Um lugar legal. Um... quase encontro?”
-
-Nicole abriu um sorriso. Um daqueles. Calmo. Lindo. Cheio de sentimento.
-
-— “Quase?”
-
-— “É. Só se você quiser que seja.”
-
-Ela fingiu pensar, mas a resposta já estava no coração.
-
-— “Então tá. Um quase encontro.”
-
-E naquele instante, o mundo ao redor ficou em segundo plano.
-Porque sem perceber, os dois tinham dado um passo.
-
-Suave. Real. E irreversível.
+Como uma sombra tranquila que entendia que certas histórias não precisam ser reescritas… só apreciadas de longe.
 
 ---
 
 Fim do capítulo.`,
 
-        // Capítulo 24
-        `Capítulo 24 — "Quase"
+                // Capítulo 23
+                `Capítulo 23 — "Entre risos, um passo além"
+
+O clima naquele fim de tarde era diferente.
+
+Depois da aula, Nicole e Nick decidiram caminhar até um parque próximo da universidade. Não foi algo planejado — só aconteceu. A brisa estava fresca, o céu pintado de tons dourados e azul-acinzentado, e o silêncio entre eles não era desconfortável… era um silêncio tranquilo, daqueles que só acontece com quem se sente bem junto.
+
+Sentaram-se num banco de madeira meio gasto, sob uma árvore alta que dançava com o vento. Nicole, ainda com a mochila nos ombros, olhou pro lado e notou o olhar distante de Nick.
+
+— "Você tá em outro mundo de novo." — ela comentou com um meio sorriso.
+
+Nick soltou uma risada curta, baixando os olhos.
+
+— "Desculpa. Tô só… pensando."
+
+Nicole virou um pouco o corpo na direção dele, cruzando as pernas no banco.
+
+— "É sobre a Yuna, né?"
+
+Nick hesitou. Era a primeira vez que ela falava o nome da outra em voz alta.
+
+— "É."
+
+— "Quer me contar?"
+
+O som das folhas balançando suavemente preencheu o espaço entre a pergunta e a resposta. Nick demorou a começar.
+
+— "A gente se conheceu quando eu tinha uns 17. Eu tava numa fase… difícil. Coisas em casa, escola, aquele sentimento de que nada fazia muito sentido. E ela apareceu tipo um cometa. Brilhante, barulhenta, diferente."
+
+Nicole prestava atenção em cada palavra, sem interromper.
+
+— "Ela me tirou de um buraco. Foi a primeira pessoa que me ouviu de verdade. A gente ficou junto por um tempo. Não muito... mas foi intenso. Eu achava que sabia o que era amar alguém. Hoje… não sei se era amor ou só… salvação."
+
+Nicole mordeu o lábio inferior, pensativa.
+
+— "E por que acabou?"
+
+Nick olhou pro céu por um instante, como se tentando encontrar a resposta entre as nuvens.
+
+— "Porque a vida puxou a gente pra direções diferentes. Ela queria liberdade. Eu queria me entender primeiro. E… teve uma coisa que aconteceu."
+
+Nicole esperou, mas ele não continuou.
+
+— "Você ainda gosta dela?"
+
+Nick virou o rosto na direção dela. O vento jogou uma mecha de cabelo sobre os olhos de Nicole, e ele, quase sem pensar, afastou com a mão.
+
+Um toque leve. Íntimo. Rápido demais pra ser percebido como algo além de um gesto simples. Mas entre eles… significou muito.
+
+— "Tem coisas que a gente nunca esquece. — ele disse, finalmente. — "Mas… tem coisas novas que a gente começa a querer lembrar, também."
+
+Nicole sentiu o coração acelerar. Mas antes que ela pudesse processar a frase, Nick levantou lentamente, enfiando as mãos nos bolsos do moletom.
+
+— "Nicole…" — a voz dele soou mais baixa. — "Tem uma parte da história que eu nunca contei pra ninguém. Nem pros meus amigos mais próximos."
+
+Ela ficou em silêncio, esperando.
+
+Nick encarou o chão por um momento, respirou fundo… e então começou:
+
+— "Naquela época… quando tudo parecia estar indo bem… a Yuna desapareceu da noite pro dia. Sumiu. Sem uma mensagem, sem explicação. Fiquei semanas tentando entender. Até que recebi uma carta."
+
+Nicole arregalou um pouco os olhos. A voz dele estava mais pesada agora, mais amarga.
+
+— "A carta dizia que ela precisava fugir. Que tinha feito algo errado. Que não podia me envolver. E pediu… pra eu esquecê-la."
+
+O silêncio voltou.
+
+Nick sentou de novo, mais devagar desta vez.
+
+— "Eu tentei seguir em frente. E, aos poucos, consegui. Até que ela apareceu aqui… como se nada tivesse acontecido."
+
+Nicole sentiu um aperto no peito. Não sabia exatamente o que dizer. Mas, mais do que nunca, queria estar ali. Com ele. Pra ele.
+
+— "Por que ela voltou agora?"
+
+Nick respondeu com um sorriso triste.
+
+— "É o que eu tô tentando descobrir."
+
+E então, vibração no bolso. O celular de Nick.
+
+Ele puxou o aparelho, olhou a tela e empalideceu por um instante. Nicole tentou espiar, mas não conseguiu ver.
+
+Nick bloqueou o celular sem dizer uma palavra. E ficou ali, com o olhar fixo no horizonte.
+
+Nicole sentiu um arrepio. Algo no ar tinha mudado.
+
+— "Nick… o que foi?"
+
+Ele demorou, mas respondeu:
+
+— "A carta… era falsa."
+
+---
+
+Fim do capítulo.`,
+
+                // Capítulo 24
+                `Capítulo 24 — "Quase"
 
 O céu já estava começando a escurecer quando Nick chegou ao ponto de encontro.
 
@@ -1613,19 +1580,19 @@ Nicole caminhava devagar pela rua, com uma leveza diferente no passo. Usava um v
 Ela estava linda.
 Linda de um jeito que fazia o mundo dar uma pausa.
 
-— “Oi.” — disse ela, parando em frente a ele, com um sorrisinho de canto que disfarçava o nervosismo.
+— "Oi." — disse ela, parando em frente a ele, com um sorrisinho de canto que disfarçava o nervosismo.
 
-— “Oi.” — ele respondeu, tentando não parecer tão afetado quanto estava.
+— "Oi." — ele respondeu, tentando não parecer tão afetado quanto estava.
 
-— “Você tá… diferente.”
+— "Você tá… diferente."
 
-— “Você também. Tipo... versão melhorada da Nicole artista gótica gamer do pufe.”
+— "Você também. Tipo... versão melhorada da Nicole artista gótica gamer do pufe."
 
 Ela riu.
 
-— “Acho que me esforcei um pouquinho.”
+— "Acho que me esforcei um pouquinho."
 
-— “Valeu a pena.”
+— "Valeu a pena."
 
 E assim, começaram a caminhar.
 
@@ -1637,25 +1604,25 @@ Conversaram sobre tudo e nada. Riram. Disputaram qual anime mais os fez chorar (
 
 Em um momento, Nicole apoiou o queixo na mão e olhou pra ele com calma.
 
-— “Nick…”
+— "Nick…"
 
-— “Hmm?”
+— "Hmm?"
 
-— “Não quero que ninguém te veja desse jeito. Só eu.”
+— "Não quero que ninguém te veja desse jeito. Só eu."
 
 Ele travou.
 
-— “Desse jeito…?”
+— "Desse jeito…?"
 
-— “Rindo assim. Calmo. Bobo. É como se… você só mostrasse isso pra mim.”
+— "Rindo assim. Calmo. Bobo. É como se… você só mostrasse isso pra mim."
 
 Nick ficou quieto por um instante, absorvendo.
 
-— “Talvez seja porque… só com você eu me sinto assim.”
+— "Talvez seja porque… só com você eu me sinto assim."
 
 Nicole desviou o olhar, o coração disparado.
 
-— “Idiota.”
+— "Idiota."
 
 Mas ela sorria.
 
@@ -1669,18 +1636,17 @@ Yuna.
 
 Sentada sozinha, óculos tortos, com uma camisa do Evangelion e um laptop coberto de adesivos. Ela levantou o copo de chá e fez um gesto com os dedos em V.
 
-— “Dessa vez, episódio 49 de 50, hein?” — ela disse de longe, piscando.
+— "Dessa vez, episódio 49 de 50, hein? — ela disse de longe, piscando.
 
-Nick quase engasgou de rir.
-Nicole levou a mão à testa, rindo baixinho.
+Nick quase engasgou de rir.Nicole levou a mão à testa, rindo baixinho.
 
-— “Eu não aguento essa mulher.”
+— "Eu não aguento essa mulher."
 
-— “Ela sempre aparece.”
+— "Ela sempre aparece."
 
-— “Última vez, prometo.” — gritou Yuna, antes de voltar pro notebook e colocar os fones.
+— "Última vez, prometo." — gritou Yuna, antes de voltar pro notebook e colocar os fones.
 
-— “É um easter egg vivo.” — murmurou Nick, ainda sorrindo.
+— "É um easter egg vivo." — murmurou Nick, ainda sorrindo.
 
 Quando saíram do café, a noite estava morna. O vento leve balançava as folhas, e as luzes dos postes lançavam sombras suaves no chão.
 
@@ -1688,21 +1654,21 @@ Caminhavam devagar, lado a lado, até que chegaram a uma praça vazia.
 
 Nicole parou.
 
-— “Foi um bom quase encontro.”
+— "Foi um bom quase encontro."
 
 Nick se virou pra ela.
 
-— “Você quer que continue sendo um ‘quase’?”
+— "Você quer que continue sendo um 'quase'?
 
 Ela hesitou. Mas então deu um passo à frente. Não muito. Só o suficiente pra diminuir o espaço entre eles.
 
-— “Acho que… gosto do jeito que está. Por enquanto.”
+— "Acho que… gosto do jeito que está. Por enquanto."
 
 O olhar dele pousou no dela. Havia uma faísca. Forte. Silenciosa.
 
 Nick ergueu a mão e tirou uma mecha do cabelo dela que caía sobre o rosto.
 
-— “Nicole…”
+— "Nicole…"
 
 Ela levantou os olhos.
 
@@ -1714,56 +1680,55 @@ A tela da história escurece.
 
 Fim do capítulo.`,
 
-        // Capítulo 25
-        `Capítulo 25 — "O Fim Que É Um Começo"
+                // Capítulo 25
+                `Capítulo 25 — "O Fim Que É Um Começo"
 
-— “E foi assim…”
+— "E foi assim…"
 Nick terminou de falar, olhando para as duas meninas à sua frente, sentadas no tapete da sala com os olhos arregalados.
 
 Violet, de 7 anos, vestia uma camiseta preta com um morcego fofo desenhado na frente, uma meia arrastão só em uma das pernas (herança visual da mãe). Ayaka, com 5 anos, usava um vestido roxo e uma presilha em forma de estrela no cabelo — a mesma que Nicole usou no primeiro encontro.
 
-— “...foi assim que eu conheci a garota mais teimosa, mais inteligente, mais sarcástica… e mais linda da faculdade.”
+— "...foi assim que eu conheci a garota mais teimosa, mais inteligente, mais sarcástica… e mais linda da faculdade."
 
 Ayaka piscou.
 
-— “A mamãe?”
+— "A mamãe?"
 
 Nick riu.
 
-— “Sim. A mamãe.”
+— "Sim. A mamãe."
 
 Violet mordeu os lábios, animada.
 
-— “Mas e o beijo? Teve beijo?”
+— "Mas e o beijo? Teve beijo?
 
 Nick olhou pras duas com um sorriso travesso.
 
-— “Ah, o beijo… o beijo foi mais tarde. Foi depois de tudo isso. Foi no fim daquela noite.”
+— "Ah, o beijo… o beijo foi mais tarde. Foi depois de tudo isso. Foi no fim daquela noite.
 
 Do outro lado da casa, Nicole mexia nas panelas com calma, cantarolando baixinho. O cheiro de almoço de domingo tomava o ar: arroz soltinho, frango assado com alecrim e limão, salada colorida — a combinação perfeita do que ela gostava de fazer quando queria que a casa parecesse viva.
 
 Nick se levantou do tapete e caminhou até a cozinha. Encostou-se na porta, observando.
 
-— “Você ouviu alguma parte da história?”
+— "Você ouviu alguma parte da história?"
 
 Nicole não virou, mas sorriu de canto.
 
-— “Ouvi tudo. Inclusive a parte que você me chamou de teimosa.”
+— "Ouvi tudo. Inclusive a parte que você me chamou de teimosa."
 
-— “Foi elogio.”
+— "Foi elogio."
 
-— “Eu sei.”
+— "Eu sei."
 
 Ele chegou mais perto, encostando o queixo no ombro dela.
 
-— “Elas perguntaram do beijo.”
+— "Elas perguntaram do beijo."
 
-— “Ah é?” — ela disse, rindo. — “E o que você respondeu?”
+— "Ah é? — ela disse, rindo. — "E o que você respondeu?"
 
 Nick não disse nada.
 
-Ele apenas a virou com cuidado, segurando sua cintura com uma mão e o rosto com a outra.
-E ali, no meio da cozinha, cercados pelo cheiro de comida, o som distante de desenhos animados vindo da TV e a luz quente do sol entrando pela janela…
+Ele apenas a virou com cuidado, segurando sua cintura com uma mão e o rosto com a outra.E ali, no meio da cozinha, cercados pelo cheiro de comida, o som distante de desenhos animados vindo da TV e a luz quente do sol entrando pela janela…
 
 Eles se beijaram.
 
@@ -1771,16 +1736,16 @@ Um beijo lento. Calmo. Intenso sem precisar ser exagerado. O tipo de beijo que n
 
 Nicole sorriu contra os lábios dele, sussurrando baixinho:
 
-— “Demorou cinquenta episódios.”
+— "Demorou cinquenta episódios."
 
-— “E valeu cada segundo.”
+— "E valeu cada segundo."
 
 Antes que pudessem dizer qualquer outra coisa, a campainha tocou.
 
 Violet e Ayaka saíram correndo pela casa, animadas.
 
-— “EU ATENDO!!”
-— “NÃÃÃO, EU CHEGO PRIMEIRO!!”
+— "EU ATENDO!!
+— "NÃÃÃO, EU CHEGO PRIMEIRO!!
 
 As duas abriram a porta juntas — e ali estava ela.
 
@@ -1788,15 +1753,15 @@ Yuna.
 
 Com os cabelos ruivos agora presos num coque improvisado, uma camisa xadrez amarrada na cintura, e uma sacola de doces na mão.
 
-— “O quê? Achavam que tinham se livrado de mim?”
+— "O quê? Achavam que tinham se livrado de mim?"
 
 Violet e Ayaka gritaram animadas:
 
-— “Tia Yunaaaa!!”
+— "Tia Yunaaaa!!
 
 Ela abriu os braços e se agachou.
 
-— “Até parece que eu perderia o almoço de domingo da Nicole. Nem morta.”
+— "Até parece que eu perderia o almoço de domingo da Nicole. Nem morta."
 
 As crianças a abraçaram, e ela entrou com aquele jeitinho desajeitado e confiante de sempre.
 
@@ -1804,17 +1769,17 @@ Na cozinha, Nick e Nicole ainda estavam colados, olhos nos olhos.
 
 Yuna apareceu na porta, fingindo tampar os olhos com drama.
 
-— “Olha só, o beijo ÉPICO! FINALMENTE. Já posso ir em paz agora.”
+— "Olha só, o beijo ÉPICO! FINALMENTE. Já posso ir em paz agora."
 
 Nick riu.
 
 Nicole, com os olhos brilhando, puxou Nick pela gola da camisa e deu mais um beijo, dessa vez só pra provocar.
 
-— “Essa é minha resposta.”
+— "Essa é minha resposta."
 
 Yuna bateu palmas de forma teatral.
 
-— “Aplausos! É isso, gente. Anime encerrado com louvor. Cadê os créditos subindo ao som de uma balada triste de piano?”
+— "Aplausos! É isso, gente. Anime encerrado com louvor. Cadê os créditos subindo ao som de uma balada triste de piano?"
 
 As meninas riam. A casa estava cheia.
 E Nick, com Nicole ao lado, as filhas nos braços e o passado inteiro transformado em afeto, soube:
@@ -1827,71 +1792,71 @@ Ele também sabia:
 Essa história… ainda estava só começando.
 
 Fim.`
-    ];
+        ];
 
-    return chapters[chapterNumber - 1] || "Conteúdo não disponível";
+        return chapters[chapterNumber - 1] || "Conteúdo não disponível";
 }
 
 // Tipo para os dados dos capítulos
 type ChapterMetadata = {
-    id: number;
-    title: string;
-    date: string;
+        id: number;
+        title: string;
+        date: string;
 }
 
 // Dados de metadados dos capítulos
 const chaptersMetadata: ChapterMetadata[] = [
-    { id: 1, title: "Começos", date: "10 de Abril, 2025" },
-    { id: 2, title: "Caminhos que se Cruzam", date: "10 de Abril, 2025" },
-    { id: 3, title: "Uma pausa entre aulas", date: "10 de Abril, 2025" },
-    { id: 4, title: "Chuva inesperada", date: "10 de Abril, 2025" },
-    { id: 5, title: "Entre conversas e silêncios", date: "10 de Abril, 2025" },
-    { id: 6, title: "Ecos na Silhueta da Tarde", date: "10 de Abril, 2025" },
-    { id: 7, title: "Entre Corações Atrapalhados", date: "10 de Abril, 2025" },
-    { id: 8, title: "O Peso das Palavras", date: "10 de Abril, 2025" },
-    { id: 9, title: "Entre Silêncios e Confissões", date: "10 de Abril, 2025" },
-    { id: 10, title: "Desvio de Rota", date: "10 de Abril, 2025" },
-    { id: 11, title: "Notificação às 22:47", date: "10 de Abril, 2025" },
-    { id: 12, title: "Silêncios e Sinais", date: "10 de Abril, 2025" },
-    { id: 13, title: "A Conexão Perdida", date: "10 de Abril, 2025" },
-    { id: 14, title: "Vozes do Passado", date: "10 de Abril, 2025" },
-    { id: 15, title: "O Preço da Verdade", date: "10 de Abril, 2025" },
-    { id: 16, title: "Bem-vinda ao Inferno, Yuna", date: "10 de Abril, 2025" },
-    { id: 17, title: "O Refúgio", date: "10 de Abril, 2025" },
-    { id: 18, title: "Torta de climão com cobertura de sarcasmo", date: "10 de Abril, 2025" },
-    { id: 19, title: "A Caçadora de Sombras", date: "10 de Abril, 2025" },
-    { id: 20, title: "Entre Linhas e Silêncios", date: "10 de Abril, 2025" },
-    { id: 21, title: "Entre Memórias e Espelhos", date: "10 de Abril, 2025" },
-    { id: 22, title: "Quando a Distância Dói", date: "10 de Abril, 2025" },
-    { id: 23, title: "A Lei do Chá Derramado", date: "10 de Abril, 2025" },
-    { id: 24, title: "Quase", date: "10 de Abril, 2025" },
-    { id: 25, title: "O Fim Que É Um Começo", date: "10 de Abril, 2025" }
+        { id: 1, title: "Começos", date: "10 de Abril, 2025" },
+        { id: 2, title: "Caminhos que se Cruzam", date: "10 de Abril, 2025" },
+        { id: 3, title: "Uma pausa entre aulas", date: "10 de Abril, 2025" },
+        { id: 4, title: "Chuva inesperada", date: "10 de Abril, 2025" },
+        { id: 5, title: "Entre conversas e silêncios", date: "10 de Abril, 2025" },
+        { id: 6, title: "As Pequenas Coisas", date: "10 de Abril, 2025" },
+        { id: 7, title: "Ecos na Silhueta da Tarde", date: "10 de Abril, 2025" },
+        { id: 8, title: "Entre Corações Atrapalhados", date: "10 de Abril, 2025" },
+        { id: 9, title: "Calda de maçã e silêncios", date: "10 de Abril, 2025" },
+        { id: 10, title: "Entre Palavras Não Ditas", date: "10 de Abril, 2025" },
+        { id: 11, title: "Notificação às 22:47", date: "10 de Abril, 2025" },
+        { id: 12, title: "Silêncios e Sinais", date: "10 de Abril, 2025" },
+        { id: 13, title: "Entre Palavras Não Ditas", date: "10 de Abril, 2025" },
+        { id: 14, title: "Vozes do Passado", date: "10 de Abril, 2025" },
+        { id: 15, title: "Entre o Hoje e o Ontem", date: "10 de Abril, 2025" },
+        { id: 16, title: "Bem-vinda ao Inferno, Yuna", date: "10 de Abril, 2025" },
+        { id: 17, title: "Torta de climão com cobertura de sarcasmo", date: "10 de Abril, 2025" },
+        { id: 18, title: "Coisas que o tempo não leva", date: "10 de Abril, 2025" },
+        { id: 19, title: "Entre Linhas e Silêncios", date: "10 de Abril, 2025" },
+        { id: 20, title: "Entre Memórias e Espelhos", date: "10 de Abril, 2025" },
+        { id: 21, title: "Quando a Distância Dói", date: "10 de Abril, 2025" },
+        { id: 22, title: "O Fim Que É Um Começo", date: "10 de Abril, 2025" },
+        { id: 23, title: "Entre risos, um passo além", date: "10 de Abril, 2025" },
+        { id: 24, title: "Quase", date: "10 de Abril, 2025" },
+        { id: 25, title: "O Fim Que É Um Começo", date: "10 de Abril, 2025" }
 ];
 
 interface PageProps {
-    params: {
-        id: string
-    }
+        params: {
+                id: string
+        }
 }
 
 export default function ChapterPage({ params }: PageProps) {
-    const chapterId = parseInt(params.id);
+        const chapterId = parseInt(params.id);
 
-    // Verificar se o ID do capítulo é válido
-    if (isNaN(chapterId) || chapterId < 1 || chapterId > chaptersMetadata.length) {
-        notFound();
-    }
+        // Verificar se o ID do capítulo é válido
+        if (isNaN(chapterId) || chapterId < 1 || chapterId > chaptersMetadata.length) {
+                notFound();
+        }
 
-    const chapter = chaptersMetadata[chapterId - 1];
-    const chapterContent = extractChapterContent("", chapterId);
+        const chapter = chaptersMetadata[chapterId - 1];
+        const chapterContent = extractChapterContent("", chapterId);
 
-    return (
-        <ChapterContent
-            id={chapter.id}
-            title={chapter.title}
-            content={chapterContent}
-            date={chapter.date}
-            totalChapters={chaptersMetadata.length}
-        />
-    )
+        return (
+                <ChapterContent
+                        id={chapter.id}
+                        title={chapter.title}
+                        content={chapterContent}
+                        date={chapter.date}
+                        totalChapters={chaptersMetadata.length}
+                />
+        )
 } 
