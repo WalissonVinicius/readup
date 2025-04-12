@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 光と闇の間 - Site da Light Novel
 
-## Getting Started
+Este é um site para a light novel "光と闇の間" (Entre a Luz e a Escuridão) escrita por Nicolas. O site permite que os leitores acessem todos os capítulos da light novel em um ambiente agradável e responsivo.
 
-First, run the development server:
+## Tecnologias utilizadas
+
+- [Next.js 14](https://nextjs.org/) - Framework React com renderização do lado do servidor
+- [TypeScript](https://www.typescriptlang.org/) - JavaScript com tipagem estática
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS utilitário
+- [Framer Motion](https://www.framer.com/motion/) - Biblioteca para animações
+- [Next Themes](https://github.com/pacocoursey/next-themes) - Suporte a temas claro/escuro
+- [React Icons](https://react-icons.github.io/react-icons/) - Ícones para React
+
+## Recursos
+
+- Design responsivo para todos os dispositivos (desktop, tablet, mobile)
+- Modo claro e escuro
+- Navegação intuitiva entre capítulos
+- Ajuste de tamanho da fonte para leitura personalizada
+- Layout otimizado para leitura de light novels
+- Suporte a fontes japonesas
+
+## Começando
+
+### Pré-requisitos
+
+- Node.js 18.17 ou superior
+- npm (ou yarn, pnpm)
+
+### Instalação
+
+1. Clone este repositório:
+
+```bash
+git clone https://github.com/seu-usuario/kage-to-hikari.git
+cd kage-to-hikari
+```
+
+2. Instale as dependências:
+
+```bash
+npm install
+```
+
+3. Execute o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Estrutura do projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+kage-to-hikari/
+├── public/              # Arquivos estáticos (imagens, etc.)
+├── src/                 # Código-fonte
+│   ├── app/             # Páginas da aplicação (usando App Router)
+│   │   ├── about/       # Página "Sobre"
+│   │   ├── chapters/    # Páginas de capítulos
+│   │   └── page.tsx     # Página inicial
+│   ├── components/      # Componentes reutilizáveis
+│   └── lib/             # Funções utilitárias e hooks
+├── package.json         # Dependências e scripts
+└── README.md            # Este arquivo
+```
 
-## Learn More
+## Personalização
 
-To learn more about Next.js, take a look at the following resources:
+### Adicionando novos capítulos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para adicionar novos capítulos à light novel, edite os arquivos em `src/app/chapters/[id]/page.tsx` e adicione novos capítulos à lista `chapters` e à função `extractChapterContent`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Alterando a imagem de capa
 
-## Deploy on Vercel
+Substitua o arquivo em `public/cover.jpg` pela imagem de capa desejada.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Produção
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Para criar uma build de produção:
+
+```bash
+npm run build
+```
+
+Para executar a build de produção:
+
+```bash
+npm start
+```
+
+## Licença
+
+Este projeto está sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
+
+---
+
+Criado com ❤️ para a light novel "光と闇の間" de Nicolas.
