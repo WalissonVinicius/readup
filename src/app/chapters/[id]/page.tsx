@@ -1833,14 +1833,9 @@ const chaptersMetadata: ChapterMetadata[] = [
         { id: 25, title: "O Fim Que É Um Começo", date: "10 de Abril, 2025" }
 ];
 
-interface PageProps {
-        params: {
-                id: string
-        }
-}
-
-export default async function ChapterPage({ params }: PageProps) {
-        const chapterId = parseInt(params.id);
+// Usar a tipagem padrão do Next.js para páginas dinâmicas
+export default async function ChapterPage(props: { params: { id: string } }) {
+        const chapterId = parseInt(props.params.id);
 
         // Verificar se o ID do capítulo é válido
         if (isNaN(chapterId) || chapterId < 1 || chapterId > chaptersMetadata.length) {

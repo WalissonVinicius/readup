@@ -1,0 +1,10 @@
+# Ignorar arquivos de build
+.next
+dist
+out
+
+# Ignorar módulos
+node_modules
+
+# Ignorar arquivos de declaração de tipos
+**/*.d.ts 
