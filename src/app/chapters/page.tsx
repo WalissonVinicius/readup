@@ -155,7 +155,7 @@ const chapters = [
     }
 ]
 
-export default function ChaptersPage() {
+export default async function ChaptersPage() {
     return (
         <div className="max-w-5xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
             <div className="flex items-center mb-8">

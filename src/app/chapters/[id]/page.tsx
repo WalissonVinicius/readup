@@ -1839,7 +1839,7 @@ interface PageProps {
         }
 }
 
-export default function ChapterPage({ params }: PageProps) {
+export default async function ChapterPage({ params }: PageProps) {
         const chapterId = parseInt(params.id);
 
         // Verificar se o ID do capítulo é válido
