@@ -51,6 +51,7 @@ export default function HiddenLinesChapterPage({ params }: { params: { id: strin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <p>{chapter.content}</p>
 =======
                 {chapterContent.split('\n').map((paragraph, index) => (
@@ -63,6 +64,9 @@ export default function HiddenLinesChapterPage({ params }: { params: { id: strin
 =======
                 {chapterContent.split('\n').map((paragraph, index) => (
 >>>>>>> parent of b574f99 (att)
+=======
+                {chapter.content.split('\n').map((paragraph, index) => (
+>>>>>>> parent of 5a3d9c6 (att)
                     <p key={index}>{paragraph}</p>
                 ))}
             </div>
@@ -87,7 +91,10 @@ export default function HiddenLinesChapterPage({ params }: { params: { id: strin
                     )}
                 </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of b574f99 (att)
+=======
+>>>>>>> parent of 5a3d9c6 (att)
 =======
 >>>>>>> parent of 5a3d9c6 (att)
             </div>

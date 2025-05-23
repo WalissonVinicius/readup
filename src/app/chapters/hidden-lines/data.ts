@@ -1,11 +1,17 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import fs from 'fs'
 import path from 'path'
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> parent of 5a3d9c6 (att)
+=======
+import fs from 'fs'
+import path from 'path'
+
 >>>>>>> parent of 5a3d9c6 (att)
 interface Chapter {
     id: number
@@ -17,6 +23,7 @@ interface Chapter {
 
 const extractChapterTitles = (content: string): Chapter[] => {
     const chapters: Chapter[] = []
+<<<<<<< HEAD
 =======
 const extractChapterTitles = (content: string) => {
     const chapters = []
@@ -25,29 +32,45 @@ const extractChapterTitles = (content: string) => {
 const extractChapterTitles = (content: string) => {
     const chapters = []
 >>>>>>> parent of b574f99 (att)
+=======
+>>>>>>> parent of 5a3d9c6 (att)
     let currentChapter = 0
     let currentTitle = ''
     let currentDescription = ''
     let foundChapter = false
+<<<<<<< HEAD
+=======
+    let chapterContent = ''
+>>>>>>> parent of 5a3d9c6 (att)
 
     const lines = content.split('\n')
     for (let i = 0; i < lines.length; i++) {
         const line = lines[i].trim()
         
         if (line.startsWith('『Hidden Lines – Capítulo')) {
+<<<<<<< HEAD
             // Se já temos um capítulo em andamento (com título), salvamos ele
+=======
+            // Se já temos um capítulo em andamento, salvamos ele
+>>>>>>> parent of 5a3d9c6 (att)
             if (foundChapter) {
                 chapters.push({
                     id: currentChapter,
                     title: currentTitle,
                     description: currentDescription,
+<<<<<<< HEAD
                     date: "10 de Abril, 2025"
+=======
+                    date: "10 de Abril, 2025",
+                    content: chapterContent.trim()
+>>>>>>> parent of 5a3d9c6 (att)
                 })
             }
             // Começamos um novo capítulo
             currentChapter = parseInt(line.match(/Capítulo (\d+)/)?.[1] || '0')
             currentTitle = ''
             currentDescription = ''
+<<<<<<< HEAD
             foundChapter = true
         } else if (line && !currentTitle && foundChapter) {
             // A primeira linha não vazia após o marcador é o título
@@ -109,6 +132,24 @@ const extractChapterTitles = (content: string) => {
     }
 =======
 >>>>>>> parent of 5a3d9c6 (att)
+=======
+            chapterContent = ''
+            foundChapter = true
+        } else if (foundChapter) {
+            // Adiciona a linha ao conteúdo do capítulo
+            chapterContent += line + '\n'
+            
+            // Se ainda não temos título e encontramos uma linha não vazia, é o título
+            if (!currentTitle && line) {
+                currentTitle = line
+            }
+            // Se temos título mas não temos descrição e encontramos uma linha não vazia, é a descrição
+            else if (currentTitle && !currentDescription && line) {
+                currentDescription = line
+            }
+        }
+    }
+>>>>>>> parent of 5a3d9c6 (att)
 
     // Adiciona o último capítulo, se houver
     if (foundChapter && currentTitle) {
@@ -116,6 +157,7 @@ const extractChapterTitles = (content: string) => {
             id: currentChapter,
             title: currentTitle,
             description: currentDescription,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,12 +172,17 @@ const extractChapterTitles = (content: string) => {
 =======
             date: "10 de Abril, 2025"
 >>>>>>> parent of b574f99 (att)
+=======
+            date: "10 de Abril, 2025",
+            content: chapterContent.trim()
+>>>>>>> parent of 5a3d9c6 (att)
         })
     }
 
     return chapters
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,6 +202,12 @@ const filePath = path.join(process.cwd(), 'HL.txt')
 // Lê o arquivo HL.txt e extrai os títulos dos capítulos
 const filePath = path.join(process.cwd(), 'HL.txt')
 >>>>>>> parent of b574f99 (att)
+const fileContent = fs.readFileSync(filePath, 'utf-8')
+export const hiddenLinesChapters = extractChapterTitles(fileContent) 
+>>>>>>> parent of 5a3d9c6 (att)
+=======
+// Lê o arquivo HL_certo.txt e extrai os títulos dos capítulos
+const filePath = path.join(process.cwd(), 'HL_certo.txt')
 const fileContent = fs.readFileSync(filePath, 'utf-8')
 export const hiddenLinesChapters = extractChapterTitles(fileContent) 
 >>>>>>> parent of 5a3d9c6 (att)
