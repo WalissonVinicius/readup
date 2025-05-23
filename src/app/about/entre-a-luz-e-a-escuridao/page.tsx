@@ -95,7 +95,7 @@ export default function AboutEntreLuzEscuridao() {
                     </div>
                     <div className="mt-8">
                         <Link
-                            href="/chapters/entre-a-luz-e-a-escuridao"
+                            href="/chapters"
                             className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white font-bold rounded-md hover:bg-indigo-700 transition shadow"
                         >
                             Começar a ler a light novel

@@ -6,13 +6,8 @@ import { hiddenLinesChapters } from './data'
 export default function HiddenLinesChaptersPage() {
     return (
         <div className="max-w-5xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center mb-8">
-                <Link href="/chapters" className="flex items-center text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 transition mr-4 font-semibold">
-                    <span className="mr-2">←</span>
-                    Voltar para capítulos
-                </Link>
-                <h1 className="text-3xl font-bold text-indigo-700 dark:text-indigo-300">Hidden Lines</h1>
-            </div>
+            <h1 className="text-3xl font-bold mb-8">Hidden Lines</h1>
+
             <div className="grid gap-6">
                 {hiddenLinesChapters.map((chapter) => (
                     <Link
