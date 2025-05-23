@@ -49,12 +49,16 @@ export default function HiddenLinesChapterPage({ params }: { params: { id: strin
             <div className="prose dark:prose-invert max-w-none">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <p>{chapter.content}</p>
 =======
                 {chapterContent.split('\n').map((paragraph, index) => (
 =======
                 {chapter.content.split('\n').map((paragraph, index) => (
 >>>>>>> parent of 5a3d9c6 (att)
+=======
+                {chapterContent.split('\n').map((paragraph, index) => (
+>>>>>>> parent of b574f99 (att)
                     <p key={index}>{paragraph}</p>
                 ))}
             </div>
