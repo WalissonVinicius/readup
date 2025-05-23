@@ -5,6 +5,7 @@ import fs from 'fs'
 import path from 'path'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 5a3d9c6 (att)
 interface Chapter {
     id: number
@@ -16,6 +17,10 @@ interface Chapter {
 
 const extractChapterTitles = (content: string): Chapter[] => {
     const chapters: Chapter[] = []
+=======
+const extractChapterTitles = (content: string) => {
+    const chapters = []
+>>>>>>> parent of b574f99 (att)
 =======
 const extractChapterTitles = (content: string) => {
     const chapters = []
@@ -113,11 +118,15 @@ const extractChapterTitles = (content: string) => {
             description: currentDescription,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             date: "10 de Abril, 2025"
 =======
             date: "10 de Abril, 2025",
             content: chapterContent.trim()
 >>>>>>> parent of 5a3d9c6 (att)
+=======
+            date: "10 de Abril, 2025"
+>>>>>>> parent of b574f99 (att)
 =======
             date: "10 de Abril, 2025"
 >>>>>>> parent of b574f99 (att)
@@ -129,6 +138,7 @@ const extractChapterTitles = (content: string) => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Lê o arquivo HL.txt e extrai os títulos dos capítulos
 const filePath = path.join(process.cwd(), 'HL.txt')
 const fileContent = fs.readFileSync(filePath, 'utf-8')
@@ -137,6 +147,10 @@ export const hiddenLinesChapters = extractChapterTitles(fileContent)
 =======
 // Lê o arquivo HL_certo.txt e extrai os títulos dos capítulos
 const filePath = path.join(process.cwd(), 'HL_certo.txt')
+=======
+// Lê o arquivo HL.txt e extrai os títulos dos capítulos
+const filePath = path.join(process.cwd(), 'HL.txt')
+>>>>>>> parent of b574f99 (att)
 =======
 // Lê o arquivo HL.txt e extrai os títulos dos capítulos
 const filePath = path.join(process.cwd(), 'HL.txt')

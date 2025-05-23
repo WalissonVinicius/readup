@@ -43,6 +43,7 @@ export default function ChaptersPage() {
                 </Link>
                 <h1 className="text-3xl font-bold">Capítulos</h1>
 <<<<<<< HEAD
+<<<<<<< HEAD
             </div>
             <div className="grid md:grid-cols-2 gap-10">
                 {/* Card Entre a Luz e a Escuridão */}
@@ -77,6 +78,8 @@ export default function ChaptersPage() {
                     <p className="text-gray-600 dark:text-gray-400 text-center mb-4">Uma light novel sobre segredos, descobertas e as linhas invisíveis que conectam passado e presente. Acompanhe personagens que precisam desvendar mistérios pessoais enquanto enfrentam desafios do cotidiano e relações complexas.</p>
                     <Link href="/chapters/hidden-lines" className="inline-block px-6 py-2 bg-indigo-600 text-white font-bold rounded-md hover:bg-indigo-700 transition shadow">Ver capítulos</Link>
                 </div>
+=======
+>>>>>>> parent of b574f99 (att)
 =======
 >>>>>>> parent of b574f99 (att)
             </div>

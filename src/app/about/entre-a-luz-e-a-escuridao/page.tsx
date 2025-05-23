@@ -87,6 +87,7 @@ export default function AboutEntreLuzEscuridao() {
                         </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <div className="border-t border-indigo-200 dark:border-indigo-700 my-6 pt-6">
                             <p className="text-lg font-semibold mb-3 text-indigo-700 dark:text-indigo-300">Sobre o Autor</p>
                             <p className="text-gray-700 dark:text-gray-300">
@@ -101,6 +102,8 @@ export default function AboutEntreLuzEscuridao() {
                         >
                             Começar a ler a light novel
                         </Link>
+=======
+>>>>>>> parent of b574f99 (att)
 =======
 >>>>>>> parent of b574f99 (att)
 =======
