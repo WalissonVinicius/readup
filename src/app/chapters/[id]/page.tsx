@@ -1834,8 +1834,12 @@ const chaptersMetadata: ChapterMetadata[] = [
 ];
 
 // Usar a tipagem padrão do Next.js para páginas dinâmicas
-export default async function ChapterPage(props: { params: { id: string } }) {
-        const chapterId = parseInt(props.params.id);
+export default async function ChapterPage({
+        params
+}: {
+        params: { id: string }
+}) {
+        const chapterId = parseInt(params.id);
 
         // Verificar se o ID do capítulo é válido
         if (isNaN(chapterId) || chapterId < 1 || chapterId > chaptersMetadata.length) {
