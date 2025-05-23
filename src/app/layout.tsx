@@ -19,8 +19,8 @@ const notoSansJp = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "光と闇の間 (Entre a Luz e a Escuridão)",
-  description: "Light novel escrita por Nicolas",
+  title: "Light Novels",
+  description: "Portal de Light Novels: Entre a Luz e a Escuridão e Hidden Lines",
   icons: {
     icon: [
       { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
@@ -37,6 +37,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
+      <head>
+        <title>Light Novels</title>
+        <meta name="description" content="Portal de Light Novels: Entre a Luz e a Escuridão e Hidden Lines" />
+        <link rel="icon" href="/favicon-32x32.png" />
+      </head>
       <body className={`${inter.variable} ${notoSansJp.variable} font-sans bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 min-h-screen flex flex-col`}>
         <ThemeProvider
           attribute="class"
