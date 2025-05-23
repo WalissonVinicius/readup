@@ -8,7 +8,7 @@ const novels = [
     jp: '光と闇の間',
     cover: '/capa1.jpeg',
     description: 'Uma história sobre amizade, descobertas e sentimentos que crescem silenciosamente entre duas pessoas.',
-    readUrl: '/chapters',
+    readUrl: '/chapters/entre-a-luz-e-a-escuridao',
     aboutUrl: '/about/entre-a-luz-e-a-escuridao',
     latest: [
       { id: 1, title: 'Começos', date: '10 de Abril, 2025', desc: 'Nicole se sente perdida no primeiro dia de aula até conhecer Nick.' },
