@@ -1,6 +1,18 @@
 import Link from 'next/link'
 import { FiArrowLeft } from 'react-icons/fi'
 import { hiddenLinesChapters } from '../data'
+import fs from 'fs'
+import path from 'path'
+
+const extractChapterContent = (content: string, chapterNumber: number): string => {
+    const chapterStart = content.indexOf(`『Hidden Lines – Capítulo ${chapterNumber}』`)
+    if (chapterStart === -1) return 'Capítulo não encontrado.'
+
+    const nextChapterStart = content.indexOf(`『Hidden Lines – Capítulo ${chapterNumber + 1}』`)
+    const chapterEnd = nextChapterStart === -1 ? content.length : nextChapterStart
+
+    return content.slice(chapterStart, chapterEnd).trim()
+}
 
 export default function HiddenLinesChapterPage({ params }: { params: { id: string } }) {
     const chapterId = parseInt(params.id)
@@ -19,6 +31,11 @@ export default function HiddenLinesChapterPage({ params }: { params: { id: strin
         )
     }
 
+    // Lê o conteúdo do arquivo HL.txt
+    const filePath = path.join(process.cwd(), 'HL.txt')
+    const fileContent = fs.readFileSync(filePath, 'utf-8')
+    const chapterContent = extractChapterContent(fileContent, chapterId)
+
     return (
         <div className="max-w-5xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
             <div className="mb-8">
@@ -32,7 +49,34 @@ export default function HiddenLinesChapterPage({ params }: { params: { id: strin
                 <div className="text-gray-500 dark:text-gray-400">{chapter.date}</div>
             </div>
             <div className="prose dark:prose-invert max-w-none">
+<<<<<<< HEAD
                 <p>{chapter.content}</p>
+=======
+                {chapterContent.split('\n').map((paragraph, index) => (
+                    <p key={index}>{paragraph}</p>
+                ))}
+            </div>
+
+            <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700">
+                <div className="flex justify-between">
+                    {chapterId > 1 && (
+                        <Link
+                            href={`/chapters/hidden-lines/${chapterId - 1}`}
+                            className="text-primary hover:underline"
+                        >
+                            ← Capítulo Anterior
+                        </Link>
+                    )}
+                    {chapterId < hiddenLinesChapters.length && (
+                        <Link
+                            href={`/chapters/hidden-lines/${chapterId + 1}`}
+                            className="text-primary hover:underline"
+                        >
+                            Próximo Capítulo →
+                        </Link>
+                    )}
+                </div>
+>>>>>>> parent of b574f99 (att)
             </div>
         </div>
     )

@@ -1,11 +1,11 @@
 {
-  "name": "ReadUp",
-  "short_name": "ReadUp",
+  "name": "Portal Light Novels",
+  "short_name": "Light Novels",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#fff",
   "theme_color": "#6366f1",
-  "description": "ReadUp - Portal brasileiro de light novels: Entre a Luz e a Escuridão e Hidden Lines.",
+  "description": "Portal de Light Novels: Entre a Luz e a Escuridão e Hidden Lines",
   "icons": [
     {
       "src": "/favicon-32x32.png",
