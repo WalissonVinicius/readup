@@ -1,18 +1,6 @@
 import Link from 'next/link'
 import { FiArrowLeft } from 'react-icons/fi'
 import { hiddenLinesChapters } from '../data'
-import fs from 'fs'
-import path from 'path'
-
-const extractChapterContent = (content: string, chapterNumber: number): string => {
-    const chapterStart = content.indexOf(`『Hidden Lines – Capítulo ${chapterNumber}』`)
-    if (chapterStart === -1) return 'Capítulo não encontrado.'
-
-    const nextChapterStart = content.indexOf(`『Hidden Lines – Capítulo ${chapterNumber + 1}』`)
-    const chapterEnd = nextChapterStart === -1 ? content.length : nextChapterStart
-
-    return content.slice(chapterStart, chapterEnd).trim()
-}
 
 export default function HiddenLinesChapterPage({ params }: { params: { id: string } }) {
     const chapterId = parseInt(params.id)
@@ -29,11 +17,6 @@ export default function HiddenLinesChapterPage({ params }: { params: { id: strin
         )
     }
 
-    // Lê o conteúdo do arquivo HL.txt
-    const filePath = path.join(process.cwd(), 'HL.txt')
-    const fileContent = fs.readFileSync(filePath, 'utf-8')
-    const chapterContent = extractChapterContent(fileContent, chapterId)
-
     return (
         <div className="max-w-3xl mx-auto py-12 px-4">
             <div className="flex items-center mb-8">
@@ -47,7 +30,7 @@ export default function HiddenLinesChapterPage({ params }: { params: { id: strin
             </div>
 
             <div className="prose dark:prose-invert max-w-none">
-                {chapterContent.split('\n').map((paragraph, index) => (
+                {chapter.content.split('\n').map((paragraph, index) => (
                     <p key={index}>{paragraph}</p>
                 ))}
             </div>

@@ -50,7 +50,7 @@ const ChapterContent = ({ id, title, content, date, totalChapters }: ChapterProp
                     <div className="flex justify-between items-center">
                         <Link
                             href="/chapters"
-                            className="text-gray-500 hover:text-gray-800 dark:hover:text-gray-200 transition flex items-center"
+                            className="text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 transition flex items-center font-semibold"
                         >
                             <FiChevronLeft className="mr-1" />
                             Voltar para capítulos
@@ -58,21 +58,21 @@ const ChapterContent = ({ id, title, content, date, totalChapters }: ChapterProp
                         <div className="flex items-center space-x-2">
                             <button
                                 onClick={decreaseFontSize}
-                                className="p-2 rounded-md bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition"
+                                className="p-2 rounded-md bg-indigo-50 dark:bg-indigo-900/30 hover:bg-indigo-100 dark:hover:bg-indigo-900/50 text-indigo-700 dark:text-indigo-200 font-bold transition"
                                 aria-label="Diminuir fonte"
                             >
                                 A-
                             </button>
                             <button
                                 onClick={increaseFontSize}
-                                className="p-2 rounded-md bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition"
+                                className="p-2 rounded-md bg-indigo-50 dark:bg-indigo-900/30 hover:bg-indigo-100 dark:hover:bg-indigo-900/50 text-indigo-700 dark:text-indigo-200 font-bold transition"
                                 aria-label="Aumentar fonte"
                             >
                                 A+
                             </button>
                         </div>
                     </div>
-                    <h1 className="text-3xl md:text-4xl font-bold mt-6 mb-2">
+                    <h1 className="text-3xl md:text-4xl font-extrabold mt-6 mb-2 text-indigo-700 dark:text-indigo-300">
                         Capítulo {id} — &ldquo;{title}&rdquo;
                     </h1>
                     <div className="text-gray-500 dark:text-gray-400">
@@ -82,18 +82,18 @@ const ChapterContent = ({ id, title, content, date, totalChapters }: ChapterProp
 
                 {/* Conteúdo do capítulo */}
                 <div
-                    className="chapter-content prose prose-lg dark:prose-invert max-w-none"
+                    className="chapter-content prose prose-lg dark:prose-invert max-w-none bg-white dark:bg-gray-900 rounded-xl p-6 shadow border-2 border-indigo-100 dark:border-indigo-800"
                     style={{ fontSize: `${fontSize}px` }}
                 >
                     {formatContent(content)}
                 </div>
 
                 {/* Navegação entre capítulos */}
-                <div className="mt-12 pt-6 border-t border-gray-200 dark:border-gray-800 flex justify-between">
+                <div className="mt-12 pt-6 border-t border-indigo-200 dark:border-indigo-800 flex justify-between">
                     {id > 1 ? (
                         <Link
                             href={`/chapters/${id - 1}`}
-                            className="flex items-center text-primary hover:underline"
+                            className="flex items-center px-4 py-2 bg-indigo-50 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-200 font-bold rounded-md hover:bg-indigo-100 dark:hover:bg-indigo-900/50 transition shadow"
                         >
                             <FiChevronLeft className="mr-1" />
                             Capítulo anterior
@@ -105,7 +105,7 @@ const ChapterContent = ({ id, title, content, date, totalChapters }: ChapterProp
                     {id < totalChapters && (
                         <Link
                             href={`/chapters/${id + 1}`}
-                            className="flex items-center text-primary hover:underline"
+                            className="flex items-center px-4 py-2 bg-indigo-50 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-200 font-bold rounded-md hover:bg-indigo-100 dark:hover:bg-indigo-900/50 transition shadow"
                         >
                             Próximo capítulo
                             <FiChevronRight className="ml-1" />
